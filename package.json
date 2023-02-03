@@ -1,0 +1,27 @@
+{
+  "name": "email-client",
+  "version": "1.0.0",
+  "description": "An email client application.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayCo-de/email-client.git"
+  },
+  "keywords": [
+    "email",
+    "client"
+  ],
+  "author": "Colin Grahm & Marius May",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MayCo-de/email-client/issues"
+  },
+  "homepage": "https://github.com/MayCo-de/email-client#readme",
+  "devDependencies": {
+    "electron": "^22.2.0"
+  }
+}
