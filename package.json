@@ -23,5 +23,8 @@
   "homepage": "https://github.com/MayCo-de/email-client#readme",
   "devDependencies": {
     "electron": "^22.2.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.10.3"
   }
 }
