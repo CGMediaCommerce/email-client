@@ -14,26 +14,217 @@
     <title>Email Client</title>
   </head>
   <body>
-    <div class="widget sidebar-widget">
-      <div class="widget-header sidebar-header">
-        <h2 class="widget-headline">
-          Email Client
-        </h2>
+    <div class="sidebar">
+      <div class="logo-box">
+        <!-- <img class="logo-icon" src="./assets/icon.ico" alt="Application Icon"> -->
+        <div class="logo">
+          <i class="bi bi-envelope-at-fill"></i>
+        </div>
+      </div>
+      <div class="navigation-box">
+        <button class="navigationButton"><i class="bi bi-envelope"></i></button>
+        <button class="navigationButton"><i class="bi bi-file-earmark-person"></i></button>
+        <button class="navigationButton"><i class="bi bi-chat-left-dots"></i></button>
+        <button class="navigationButton"><i class="bi bi-calendar-week"></i></button>
+      </div>
+      <div class="controll-box">
+        <button class="navigationButton"><i class="bi bi-gear"></i></button>
       </div>
     </div>
 
-    <div class="widget mailbox-widget">
-      <div class="widget-header">
-        Widget Header
+    <div class="viewBox">
+      <div class="view emailView" id="emailView">
+        <div class="mailSidebarWidget">
+
+        </div>
+        <div class="mailBoxWidget">
+          <div class="widgetHeader">
+            <input type="text" class="mailSearchBar" id="mailSearchBar" name="searchBar" placeholder="Suche..">
+            <button class="funnelButton">
+              <i class="bi bi-funnel"></i>
+              Filter
+            </button>
+          </div>
+          <div class="headlineBox">
+            <h3 class="listHeadline">Posteingang</h3>            
+          </div>
+          <div class="emailList">
+            <div class="mailItem unread">
+              <div class="itemSide">
+                <img class="contactPicture" src="./assets/noPicture.png" alt="Name Kontakt">
+              </div>
+              <div class="itemHeader">
+                <h5 class="subject">Betreff der Email</h5><br>
+                <p class="senderName">Mustermann GmbH</p>
+              </div>
+              <div class="itemSettings">
+                <button class="menuButton">
+                  <i class="bi bi-three-dots-vertical"></i>
+                </button>
+              </div>
+              <div class="itemBody">
+                <p class="bodyText">
+                  Lorem ipsum dolor sit amet, consur ipng elitr...
+                </p>
+              </div>
+              <div></div>
+              <div></div>
+            </div>
+
+            <div class="mailItem unread">
+              <div class="itemSide">
+                <img class="contactPicture" src="./assets/noPicture.png" alt="Name Kontakt">
+              </div>
+              <div class="itemHeader">
+                <h5 class="subject">Betreff der Email</h5><br>
+                <p class="senderName">Mustermann GmbH</p>
+              </div>
+              <div class="itemSettings">
+                <button class="menuButton">
+                  <i class="bi bi-three-dots-vertical"></i>
+                </button>
+              </div>
+              <div class="itemBody">
+                <p class="bodyText">
+                  Lorem ipsum dolor sit amet, consur ipng elitr...
+                </p>
+              </div>
+              <div></div>
+              <div></div>
+            </div>
+
+            <div class="mailItem unread">
+              <div class="itemSide">
+                <img class="contactPicture" src="./assets/noPicture.png" alt="Name Kontakt">
+              </div>
+              <div class="itemHeader">
+                <h5 class="subject">Betreff der Email</h5><br>
+                <p class="senderName">Mustermann GmbH</p>
+              </div>
+              <div class="itemSettings">
+                <button class="menuButton">
+                  <i class="bi bi-three-dots-vertical"></i>
+                </button>
+              </div>
+              <div class="itemBody">
+                <p class="bodyText">
+                  Lorem ipsum dolor sit amet, consur ipng elitr...
+                </p>
+              </div>
+              <div></div>
+              <div></div>
+            </div>
+
+            <div class="mailItem unread">
+              <div class="itemSide">
+                <img class="contactPicture" src="./assets/noPicture.png" alt="Name Kontakt">
+              </div>
+              <div class="itemHeader">
+                <h5 class="subject">Betreff der Email</h5><br>
+                <p class="senderName">Mustermann GmbH</p>
+              </div>
+              <div class="itemSettings">
+                <button class="menuButton">
+                  <i class="bi bi-three-dots-vertical"></i>
+                </button>
+              </div>
+              <div class="itemBody">
+                <p class="bodyText">
+                  Lorem ipsum dolor sit amet, consur ipng elitr...
+                </p>
+              </div>
+              <div></div>
+              <div></div>
+            </div>
+
+            <div class="mailItem">
+              <div class="itemSide">
+                <img class="contactPicture" src="./assets/noPicture.png" alt="Name Kontakt">
+              </div>
+              <div class="itemHeader">
+                <h5 class="subject">Betreff der Email</h5><br>
+                <p class="senderName">Mustermann GmbH</p>
+              </div>
+              <div class="itemSettings">
+                <button class="menuButton">
+                  <i class="bi bi-three-dots-vertical"></i>
+                </button>
+              </div>
+              <div class="itemBody">
+                <p class="bodyText">
+                  Lorem ipsum dolor sit amet, consur ipng elitr...
+                </p>
+              </div>
+              <div></div>
+              <div></div>
+            </div>
+
+            <div class="mailItem">
+              <div class="itemSide">
+                <img class="contactPicture" src="./assets/noPicture.png" alt="Name Kontakt">
+              </div>
+              <div class="itemHeader">
+                <h5 class="subject">Betreff der Email</h5><br>
+                <p class="senderName">Mustermann GmbH</p>
+              </div>
+              <div class="itemSettings">
+                <button class="menuButton">
+                  <i class="bi bi-three-dots-vertical"></i>
+                </button>
+              </div>
+              <div class="itemBody">
+                <p class="bodyText">
+                  Lorem ipsum dolor sit amet, consur ipng elitr...
+                </p>
+              </div>
+              <div></div>
+              <div></div>
+            </div>
+
+            <div class="mailItem">
+              <div class="itemSide">
+                <img class="contactPicture" src="./assets/noPicture.png" alt="Name Kontakt">
+              </div>
+              <div class="itemHeader">
+                <h5 class="subject">Betreff der Email</h5><br>
+                <p class="senderName">Mustermann GmbH</p>
+              </div>
+              <div class="itemSettings">
+                <button class="menuButton">
+                  <i class="bi bi-three-dots-vertical"></i>
+                </button>
+              </div>
+              <div class="itemBody">
+                <p class="bodyText">
+                  Lorem ipsum dolor sit amet, consur ipng elitr...
+                </p>
+              </div>
+              <div></div>
+              <div></div>
+            </div>
+            
+          </div>
+          <div class="listControllBox">
+            <button class="secondaryButton prevButton btn-s">
+              <i class="bi bi-caret-left-fill"></i>
+            </button>
+            <input type="number" class="mailQuantity" id="mailQuantity" name="mailQuantity" value="50">
+            <button class="secondaryButton nextButton btn-s">
+              <i class="bi bi-caret-right-fill"></i>
+            </button>
+            <button class="primaryButton newMailButton btn-s">
+              <i class="bi bi-pencil-square"></i>
+              Email verfassen
+            </button>
+          </div>
+        </div>
+        <div class="emailViewerWidget">
+          <!-- <div class="widgetHeader"></div> -->
+
+        </div>
       </div>
     </div>
 
-    <div class="widget mailView-widget">
-      <div class="widget-header">
-        Widget Header
-      </div>
-    </div>
-
-    <div class="footer">Footer</div>
+    <div class="footer"></div>
   </body>
 </html>

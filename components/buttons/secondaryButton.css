@@ -1,0 +1,24 @@
+/*  ###################### */
+/*  Utilitys               */
+/*  ###################### */
+.secondaryButton {
+    background-color: var(--primary-light-2);
+    color: var(--button-text);
+    padding: 12px !important;
+}
+
+
+/* ? ###################### */
+/* ? States                 */
+/* ? ###################### */
+.secondaryButton:hover {
+    cursor: pointer;
+    background-color: var(--primary-light);
+    transition: .3s ease;
+}
+
+.secondaryButton:focus {
+    cursor: pointer;
+    background-color: var(--primary);
+    transition: .2s ease;
+}

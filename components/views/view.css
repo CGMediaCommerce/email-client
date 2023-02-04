@@ -1,0 +1,17 @@
+/* ? Include views */
+@import url("emailView.css");
+
+.viewBox {
+    grid-area: viewBox;
+    background-color: #a8a8a8;
+
+    z-index: 100;
+}
+
+.view {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg);
+}
+

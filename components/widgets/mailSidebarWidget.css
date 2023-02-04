@@ -1,0 +1,5 @@
+.mailSidebarWidget {
+    grid-area: mailSidebarWidget;
+    width: 12rem;
+    background-color: var(--bg-dark);
+}

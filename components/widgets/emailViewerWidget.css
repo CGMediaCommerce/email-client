@@ -1,0 +1,6 @@
+
+.emailViewerWidget {
+    grid-area: emailViewerWidget;
+    background-color: var(--bg-dark);
+    z-index: 150;
+}
