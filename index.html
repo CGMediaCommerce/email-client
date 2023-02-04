@@ -2,18 +2,26 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *;**script-src 'self' http://onlineerp.solution.quebec 'unsafe-inline' 'unsafe-eval';** "> -->
 
     <!-- INCLUDE Bootstrap5 Icons -->
     <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
     <!-- INCLUDE Main CSS file -->
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="resources/css/ExampleTable.min.css">
 
     <title>Email Client</title>
   </head>
   <body>
+    <script src="http://localhost/Splint/js/Splint.js"></script>
+    <script>
+      Splint.bind().ALL("http://localhost");
+    </script>
+
     <div class="widget sidebar-widget">
       <div class="widget-header sidebar-header">
         <h2 class="widget-headline">
@@ -36,4 +44,6 @@
 
     <div class="footer">Footer</div>
   </body>
+  <script src="http://localhost/email-client-fork/resources/js/loader.js"></script>
+  <script src="http://localhost/email-client-fork/resources/js/Example.js"></script>
 </html>
