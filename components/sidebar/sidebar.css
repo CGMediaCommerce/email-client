@@ -1,0 +1,55 @@
+.sidebar {
+    grid-area: sidebar;
+    background-color: var(--bg);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 4rem auto 4rem;
+    grid-template-areas: 
+        'logoBox'
+        'navigationBox'
+        'controllBox';
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000000;
+}
+
+.sidebar .logo-box {
+    grid-area: logoBox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar .logo-box .logo-icon {
+    height: 2.5rem;
+}
+
+/* Placeholder Logo */
+.logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--primary);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo i {
+    color: var(--button-text);
+    font-size: 1.5rem;
+}
+
+.sidebar .navigation-box {
+    grid-area: navigationBox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.sidebar .controll-box {
+    grid-area: controllBox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

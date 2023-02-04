@@ -1,0 +1,193 @@
+.mailBoxWidget {
+    position: relative;
+    width: 20rem;
+    overflow: hidden !important;
+    grid-area: mailBoxWidget;
+    background-color: var(--bg);
+    z-index: 200;
+}
+
+.mailBoxWidget .widgetHeader {
+    display: grid;
+    grid-template-columns: auto 7rem;
+    grid-template-rows: 3rem;
+    grid-template-areas: 'searchBar  funnelButton';
+    z-index: 230;
+}
+
+.widgetHeader .mailSearchBar {
+    position: relative;
+    top: .5rem;
+    left: .5rem;
+    margin: .5rem 0;
+    margin-right: .5rem;
+}
+
+.widgetHeader .funnelButton {
+    position: relative;
+    top: .5rem;
+    margin: .5rem 1rem;
+    margin-left: .25rem;
+    padding: .2rem 0;
+}
+
+.headlineBox {
+    position: absolute;
+    top: 3.5rem;
+    width: 100%;
+    height: 3rem;
+
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 75%,
+        rgba(255, 255, 255, 0) 100%);
+    z-index: 225;
+}
+
+.headlineBox h3{
+    position: relative;
+    padding: .5rem;
+}
+
+.mailBoxWidget .emailList {
+    position: relative;
+    top: 1rem;
+    width: 100%;
+    height: calc(100% - 8.7rem);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: .2rem;
+    background-color: var(--bg-dark);
+    z-index: 220;
+}
+
+.emailList .mailItem {
+    position: relative;
+    width: 97%;
+    min-height: 7rem;
+    height: 7rem;
+    border-left: 5px solid transparent;
+    background-color: var(--bg);
+    display: grid;
+    grid-template-columns: 4rem auto 2rem;
+    grid-column-gap: .5rem;
+    grid-template-rows: 3.5rem 7rem;
+    grid-template-areas: 
+        'itemSide   itemHeader  itemSettings'
+        'itemSide   itemBody    itemSettings';
+}
+
+.emailList .mailItem:hover {
+    cursor: pointer;
+    background-color: #F0F0F0;
+    transition: .5s ease-in-out;
+}
+
+.mailItem .itemSide {
+    grid-area: itemSide;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemSide .contactPicture {
+    margin-top: .5rem;
+    width: 2.5rem;
+    border-radius: 50px;
+}
+
+.mailItem .itemHeader {
+    grid-area: itemHeader;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.itemHeader .subject {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.itemHeader .senderName {
+    font-size: .8rem;
+    font-weight: 600;
+    margin-top: -1rem;
+    color: var(--secondary-text);
+}
+
+.mailItem .itemSettings .menuButton {
+    background-color: transparent;
+    margin: 0;
+    padding: .5rem .3rem;
+    font-size: 1.3rem;
+}
+
+.mailItem .itemSettings .menuButton:hover {
+    cursor: pointer;
+    background-color: var(--bg-dark);
+    transition: .4s ease-in-out;
+}
+
+.mailItem .itemBody {
+    grid-area: itemBody;
+}
+
+.itemBody .bodyText {
+    margin-top: .3rem;
+    font-size: .85rem;
+}
+
+.emailList .unread {
+    border-left: 5px solid var(--primary);
+    background-color: rgba(210, 240 , 250, .5);
+}
+
+.mailItem:nth-child(1) {
+    margin-top: 1.5rem;
+}
+
+.mailItem:nth-last-child(1) {
+    margin-bottom: 2rem;
+}
+
+
+.mailBoxWidget .listControllBox {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 225;
+}
+
+.listControllBox .prevButton,
+.listControllBox .nextButton {
+    padding: 10px !important;
+    margin: .5rem .2rem;
+    font-size: 1.2rem;
+}
+
+.listControllBox .mailQuantity {
+    width: 1.3rem;
+    font-size: 1rem;
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid #a8a8a8;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

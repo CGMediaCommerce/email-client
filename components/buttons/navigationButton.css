@@ -1,0 +1,24 @@
+/*  ###################### */
+/*  Utilitys               */
+/*  ###################### */
+.navigationButton {
+    background-color: transparent;
+    color: var(--secondary-text);
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+/* ? ###################### */
+/* ? States                 */
+/* ? ###################### */
+.navigationButton:hover {
+    cursor: pointer;
+    background-color: var(--primary);
+    transition: .5s ease-in-out;
+}
+
+.navigationButton:hover i { 
+    color: var(--button-text);
+    transition: .5s ease-in-out;
+}
