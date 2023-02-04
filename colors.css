@@ -1,0 +1,13 @@
+:root {
+    --primary: #0B66FF;
+    --primary-dark: #1147FF;
+    --primary-light: #0496FF;
+
+    --bg: #fff;
+    --bg-dark: #f6f6f6;
+
+    --primary-text: #333;
+    --secondary-text: #a8a8a8;
+    --button-text: #fff;
+}
+
