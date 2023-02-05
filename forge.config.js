@@ -1,5 +1,3 @@
-const electronInstaller = require('electron-winstaller');
-
 module.exports = {
   packagerConfig: {
     icon: './assets/icon'
@@ -36,8 +34,6 @@ module.exports = {
     {
       name: '@electron-forge/maker-dmg',
       config: {
-        name: 'Email Client',
-        version: '1.0.0',
         icon: './assets/icon.icns',
       },
     },
