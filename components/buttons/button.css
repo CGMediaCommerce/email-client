@@ -5,7 +5,7 @@ button {
     border: none;
     border-radius: 5px;
     margin: .5rem;
-}
+} /* button */
 
 /* ! ###################### */
 /* ! Sizes                  */
@@ -14,14 +14,14 @@ button {
 .btn-s {
     font-size: .9rem;
     padding: 12px 1rem;
-}
+} /* .btn-s */
 
 .btn-m {
     font-size: 1.1rem;
     padding: 14px 1.5rem;
-}
+} /* .btn-m */
 
 .btn-l {
     font-size: 1.3rem;
     padding: 16px 1.5rem;
-}
+} /* .btn-l */

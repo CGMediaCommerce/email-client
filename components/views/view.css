@@ -1,5 +1,9 @@
 /* ? Include views */
 @import url("emailView.css");
+@import url("contactView.css");
+@import url("chatView.css");
+@import url("calendarView.css");
+@import url("settingsView.css");
 
 .viewBox {
     grid-area: viewBox;

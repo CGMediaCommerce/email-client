@@ -1,6 +1,6 @@
 .mailBoxWidget {
     position: relative;
-    width: 20rem;
+    width: 30rem;
     overflow: hidden !important;
     grid-area: mailBoxWidget;
     background-color: var(--bg);
@@ -9,18 +9,32 @@
 
 .mailBoxWidget .widgetHeader {
     display: grid;
-    grid-template-columns: auto 7rem;
+    grid-template-columns: 17rem 7rem;
     grid-template-rows: 3rem;
     grid-template-areas: 'searchBar  funnelButton';
     z-index: 230;
 }
 
-.widgetHeader .mailSearchBar {
-    position: relative;
-    top: .5rem;
-    left: .5rem;
-    margin: .5rem 0;
-    margin-right: .5rem;
+.widgetHeader .styledInput {
+    width: auto;
+    height: 2rem;
+    border: 1px solid #a8a8a8;
+    border-radius: 8px;
+}
+
+.styledInput i {
+    margin-left: .7rem;
+    margin-right: .3rem;
+    font-size: .9rem;
+    color: var(--secondary-text);
+}
+
+.styledInput input {
+    height: 100%;
+    border: none;
+    padding-left: .2rem;
+    font-size: .9rem;
+    color: var(--secondary-text);
 }
 
 .widgetHeader .funnelButton {
