@@ -1,0 +1,3391 @@
+[05-Feb-2023 00:01:43 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: htmlentities(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\Splint\php\email\email.php:16
+Stack trace:
+#0 C:\xampp\htdocs\Splint\php\email\email.php(16): htmlentities(Array)
+#1 C:\xampp\htdocs\Splint\php\email\emailAccess.php(8): email::get_Header_by_index(Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\Splint\php\email\email.php on line 16
+
+     Array
+     (
+         [0] => stdClass Object
+             (
+                 [subject] => Emails
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:35 +0000
+                 [message_id] => <0101018619ce9955-6c7b8a29-64b1-430a-9877-37299ed8ef77-000000@us-west-2.amazonses.com>
+                 [size] => 19765
+                 [uid] => 12000
+                 [msgno] => 6919
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470218
+             )
+     
+         [1] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Entw=C3=BCrfe_speichern?=
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:36 +0000
+                 [message_id] => <0101018619ce9d69-fedc67ea-beb5-4e26-b9bd-df8f5c2f7c13-000000@us-west-2.amazonses.com>
+                 [size] => 19785
+                 [uid] => 12001
+                 [msgno] => 6920
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470219
+             )
+     
+         [2] => stdClass Object
+             (
+                 [subject] => In Emails suchen
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:40 +0000
+                 [message_id] => <0101018619cead60-677de606-603a-421a-9e64-2022ce3d1bf2-000000@us-west-2.amazonses.com>
+                 [size] => 19762
+                 [uid] => 12002
+                 [msgno] => 6921
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470223
+             )
+     
+     )
+     
+[05-02 00:01][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\email.php(16)
+[05-02 00:01][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\emailAccess.php(8)
+
+
+     Array
+     (
+         [0] => stdClass Object
+             (
+                 [subject] => Emails
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:35 +0000
+                 [message_id] => <0101018619ce9955-6c7b8a29-64b1-430a-9877-37299ed8ef77-000000@us-west-2.amazonses.com>
+                 [size] => 19765
+                 [uid] => 12000
+                 [msgno] => 6919
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470218
+             )
+     
+         [1] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Entw=C3=BCrfe_speichern?=
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:36 +0000
+                 [message_id] => <0101018619ce9d69-fedc67ea-beb5-4e26-b9bd-df8f5c2f7c13-000000@us-west-2.amazonses.com>
+                 [size] => 19785
+                 [uid] => 12001
+                 [msgno] => 6920
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470219
+             )
+     
+         [2] => stdClass Object
+             (
+                 [subject] => In Emails suchen
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:40 +0000
+                 [message_id] => <0101018619cead60-677de606-603a-421a-9e64-2022ce3d1bf2-000000@us-west-2.amazonses.com>
+                 [size] => 19762
+                 [uid] => 12002
+                 [msgno] => 6921
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470223
+             )
+     
+     )
+     
+[05-02 00:02][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\email.php(16)
+[05-02 00:02][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\emailAccess.php(8)
+
+
+     Array
+     (
+         [0] => stdClass Object
+             (
+                 [subject] => [GitHub] Your Dependabot alerts for the week of Dec 20 - Dec 27
+                 [from] => GitHub <noreply@github.com>
+                 [to] => vollgutalter <Marius006@gmx.de>
+                 [date] => Tue, 27 Dec 2022 08:26:44 +0000 (UTC)
+                 [message_id] => <63aaac4467747_8105c71025323@github-lowworker-5607382.va3-iad.github.net.mail>
+                 [size] => 35445
+                 [uid] => 11632
+                 [msgno] => 6841
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1672129606
+             )
+     
+         [1] => stdClass Object
+             (
+                 [subject] => Last chance: Save 50% on 3D now!
+                 [from] => TurboSquid <info@turbosquid.com>
+                 [to] => marius006@gmx.de
+                 [date] => Thu, 29 Dec 2022 16:40:32 +0000 (UTC)
+                 [message_id] => <PwMA8yXcQhapm37Il6qC_A@geopod-ismtpd-2-2>
+                 [size] => 46521
+                 [uid] => 11660
+                 [msgno] => 6842
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1672332034
+             )
+     
+         [2] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Marius,_mein_besonderes_Gesch?= =?UTF-8?Q?enk_f=C3=BCr_Sie_f=C3=BCr_das_Jahr_2023?=
+                 [from] => Entdecken Sie Ihre strahlende Zukunft! <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 31 Dec 2022 12:04:51 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vcd37zqw2u2cbbqep2ccbkjjc3pctzy5ptssa4cga@io.topmailing.de>
+                 [size] => 18459
+                 [uid] => 11671
+                 [msgno] => 6843
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1672486978
+             )
+     
+         [3] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Nicht_verpassen:_=E2=82=AC_448_Weihnachtsvorteil_bei_Sky?=
+                 [from] => "=?UTF-8?Q?Nur_in_2022:_Also_wenige_Tage_verf=C3=BCgbar?=" <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 31 Dec 2022 13:02:21 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-57V5OPZF-57FY9R8Q-D59QCZ@news.intone-mail.de>
+                 [size] => 29916
+                 [uid] => 11672
+                 [msgno] => 6844
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1672488245
+             )
+     
+         [4] => stdClass Object
+             (
+                 [subject] => Ich werde Ihnen die Zukunft zeigen!
+                 [from] => Mein Name ist Athena <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 31 Dec 2022 16:02:21 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-57VCXNAB-57PELYG2-10ULUYQ@news.intone-mail.de>
+                 [size] => 21867
+                 [uid] => 11673
+                 [msgno] => 6845
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1672498945
+             )
+     
+         [5] => stdClass Object
+             (
+                 [subject] => Deine eigenen Frauen in deiner Region. Bekomme heute Damen
+                 [from] => lev961095@gmail.com
+                 [to] => lev961095@gmail.com
+                 [date] => Sat, 31 Dec 2022 12:01:39 -0800 (PST)
+                 [message_id] => <63b09523.170a0220.896a4.cd9f@mx.google.com>
+                 [size] => 48708
+                 [uid] => 11674
+                 [msgno] => 6846
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1672516900
+             )
+     
+         [6] => stdClass Object
+             (
+                 [subject] => Monthly Statement
+                 [from] => "Admiral Markets UK Ltd." <info.uk@admiralmarkets.com>
+                 [to] => Werner Michael May <marius006@gmx.de>
+                 [date] => Sun, 01 Jan 2023 00:47:21 +0000
+                 [message_id] => <b0df1374-7f56-4e30-9a4c-be4578e0a4dc@mtasv.net>
+                 [size] => 28307
+                 [uid] => 11675
+                 [msgno] => 6847
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1672534042
+             )
+     
+         [7] => stdClass Object
+             (
+                 [subject] => Neujahrs Gutschein
+                 [from] => Freie Presse <service@freiepresse.de>
+                 [to] => Marius006@gmx.de
+                 [date] => Sun, 01 Jan 2023 07:02:21 +0100
+                 [message_id] => <c2q.26e.eig@sendnode.com>
+                 [size] => 30464
+                 [uid] => 11676
+                 [msgno] => 6848
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1672552952
+             )
+     
+         [8] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Noch_bis_03.01._anmelden_und_schon_?= =?UTF-8?Q?im_Januar_bis_zu_700.000_=E2=82=AC_gewinnen!?=
+                 [from] => Deutsche Postcode Lotterie <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 1 Jan 2023 07:06:10 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vc7mcjq2gmlx23buz2xqwz5wsewbe7y6me3h6lclq@io.topmailing.de>
+                 [size] => 25904
+                 [uid] => 11677
+                 [msgno] => 6849
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1672553550
+             )
+     
+         [9] => stdClass Object
+             (
+                 [subject] => Die neuen kostenlosen Hausbau-Kataloge 2023
+                 [from] => =?UTF-8?Q?Hausbau-Ideen_von_=C3=BCber_350_Baufirmen?= <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 1 Jan 2023 08:34:40 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vdhxhc4msonk4cyc3idlyqn6ddribqkmumbxak6oq@io.topmailing.de>
+                 [size] => 30509
+                 [uid] => 11678
+                 [msgno] => 6850
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1672559208
+             )
+     
+         [10] => stdClass Object
+             (
+                 [subject] => Zum Schutz der Liebsten, Herr May
+                 [from] => Sterbegeldversicherung - Jetzt informieren <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 1 Jan 2023 10:05:40 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vdndqx46ozerdzxbdst776m6pm2qjtvmqhmheavya@io.topmailing.de>
+                 [size] => 24367
+                 [uid] => 11679
+                 [msgno] => 6851
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1672564507
+             )
+     
+         [11] => stdClass Object
+             (
+                 [subject] => Herr May, bis zu 50 % Rabatt bei Hammer sichern
+                 [from] => Attraktive Rabatte <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 1 Jan 2023 11:06:10 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vdsicm6nxeoanb6sqahdknqmfoyidgpgwtktkh6xa@io.topmailing.de>
+                 [size] => 31380
+                 [uid] => 11680
+                 [msgno] => 6852
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1672569036
+             )
+     
+         [12] => stdClass Object
+             (
+                 [subject] => Knapp bei Kasse? Nicht mit uns, Herr May
+                 [from] => Der smava Sofortkredit <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 1 Jan 2023 11:07:10 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vd4kjs2fmfawn5aad4ihwtarfwidzjyxq27tcggiq@io.topmailing.de>
+                 [size] => 32951
+                 [uid] => 11681
+                 [msgno] => 6853
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1672570231
+             )
+     
+         [13] => stdClass Object
+             (
+                 [subject] => AOK PLUS - ungelesene Nachrichten in Ihrer Online-Filiale "Meine AOK"
+                 [from] => Meine AOK <nicht-antworten@meine.aok.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 1 Jan 2023 12:47:31 +0100
+                 [message_id] => <ADR480000000512131700050568F6F141EEDA2B94292E6425C25@OGS.AOK.DE>
+                 [size] => 11604
+                 [uid] => 11682
+                 [msgno] => 6854
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1672573656
+             )
+     
+         [14] => stdClass Object
+             (
+                 [subject] => Vereinbare dein Probetraining, Marius
+                 [from] => Informiere Dich jetzt <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 1 Jan 2023 12:34:51 +0000 (UTC)
+                 [message_id] => <hdh3vfe5bp5vd3bmy6lgctnxqu3rhbrczybjpfxpl2622qt2xzfq@io.topmailing.de>
+                 [size] => 31204
+                 [uid] => 11683
+                 [msgno] => 6855
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1672576709
+             )
+     
+         [15] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Jetzt=20schnell=20und=20einfach=20Ihr=20Konto=20auf?= =?UTF-8?Q?f=C3=BCllen?=
+                 [from] => =?UTF-8?B?c21hdmEg4oCTIEtyZWRpdCAxMi8yMDIy?= <mail@verbraucher-service20.de>
+                 [to] => marius006@gmx.de
+                 [date] => 01 Jan 2023 20:04:38 -0000
+                 [message_id] => <mid-cfd42cd2cb78e4b3b99e226f7cb5aa20-1@verbraucher-service20.de>
+                 [size] => 31020
+                 [uid] => 11684
+                 [msgno] => 6856
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1672603479
+             )
+     
+         [16] => stdClass Object
+             (
+                 [subject] => [GitHub] Your Dependabot alerts for the week of Dec 27 - Jan 3
+                 [from] => GitHub <noreply@github.com>
+                 [to] => vollgutalter <Marius006@gmx.de>
+                 [date] => Tue, 03 Jan 2023 11:23:38 +0000 (UTC)
+                 [message_id] => <63b4103aae957_2a74c7102454c@github-lowworker-fbcac68.ash1-iad.github.net.mail>
+                 [size] => 35460
+                 [uid] => 11691
+                 [msgno] => 6857
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1672745021
+             )
+     
+         [17] => stdClass Object
+             (
+                 [subject] => [GitHub] Your Dependabot alerts for the week of Jan 3 - Jan 10
+                 [from] => GitHub <noreply@github.com>
+                 [to] => vollgutalter <Marius006@gmx.de>
+                 [date] => Tue, 10 Jan 2023 09:34:30 +0000 (UTC)
+                 [message_id] => <63bd31269fcc7_31c9c5bc926b5@github-lowworker-f877de4.ash1-iad.github.net.mail>
+                 [size] => 44277
+                 [uid] => 11753
+                 [msgno] => 6858
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673343272
+             )
+     
+         [18] => stdClass Object
+             (
+                 [subject] => [vollgutalter] A security advisory on json5 affects at least one of your repositories
+                 [from] => GitHub <notifications@github.com>
+                 [to] => vollgutalter/GHSA-9c47-m6qq-7p4h <GHSA-9c47-m6qq-7p4h@noreply.github.com>
+                 [date] => Tue, 10 Jan 2023 09:47:29 +0000 (UTC)
+                 [message_id] => <vollgutalter/security-advisories/72920055@github.com>
+                 [references] => <vollgutalter/security-advisories@github.com>
+                 [in_reply_to] => <vollgutalter/security-advisories@github.com>
+                 [size] => 49470
+                 [uid] => 11754
+                 [msgno] => 6859
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673344051
+             )
+     
+         [19] => stdClass Object
+             (
+                 [subject] => Rovyjlub, try Pickup today.
+                 [from] => DoorDash <no-reply@doordash.com>
+                 [to] => Rovyjlub Xdheqlknwj <marius006@gmx.de>
+                 [date] => Thu, 12 Jan 2023 19:19:43 +0000
+                 [message_id] => <E3.9A.00624.F4D50C36@gi.mta1vrest.cc.prd.sparkpost>
+                 [size] => 52939
+                 [uid] => 11780
+                 [msgno] => 6860
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673551186
+             )
+     
+         [20] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Kredite_ab_0,68%_vergleichen_und_Traum_erf=C3=BCllen?=
+                 [from] => Kreditvergleich 01/23 <tipp@letter.quick-balance.com>
+                 [to] => marius006@gmx.de
+                 [date] => 15 Jan 2023 01:00:42 -0000
+                 [message_id] => <bbe67ebcc0606ec521fa3852134463a3@letter.quick-balance.com>
+                 [size] => 37506
+                 [uid] => 11801
+                 [msgno] => 6861
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673746918
+             )
+     
+         [21] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Wo_gibt=E2=80=99s_denn_sowas=3F!_Wir_schenken_Dir_eine_?= =?UTF-8?Q?komplette_Gleitsichtbrille_im_Wert_von_158_=E2=82=AC!?=
+                 [from] => Jetzt Termin machen und Gleitsichtbrille sichern <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 15 Jan 2023 07:05:42 +0000 (UTC)
+                 [message_id] => <hdh3vfe5bp5vdri5xpzft6lb6rsyxhjnuk4mxx56eu3onl4hxt4a@io.topmailing.de>
+                 [size] => 44551
+                 [uid] => 11802
+                 [msgno] => 6862
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673769264
+             )
+     
+         [22] => stdClass Object
+             (
+                 [subject] => Knapp bei Kasse? Nicht mit dem smava Sofortkredit, Marius!
+                 [from] => Jetzt durchrechnen lassen <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 15 Jan 2023 09:03:40 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-58H8S0LT-58EHTVUR-U2NJH3@news.intone-mail.de>
+                 [size] => 38290
+                 [uid] => 11803
+                 [msgno] => 6863
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673770317
+             )
+     
+         [23] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Deutsche_Postcode_Lotterie:_Jetz?= =?UTF-8?Q?t_spielen_und_700.000=E2=82=AC_gewinnen!?=
+                 [from] => =?UTF-8?Q?Ihr_Los_f=C3=BCr_nur_12=2C50=E2=82=AC_im_Monat!?= <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 15 Jan 2023 10:06:51 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vcx5vywx6kb3b6asltms2b4cm2wfmxz37niwyrdzq@io.topmailing.de>
+                 [size] => 27047
+                 [uid] => 11804
+                 [msgno] => 6864
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673776038
+             )
+     
+         [24] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Ihre_VISA_Kreditkarte_mit_35=E2=82=AC_Startguthaben?=
+                 [from] => "=?UTF-8?Q?2.500=E2=82=AC_sofort_verf=C3=BCgbar?=" <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 15 Jan 2023 11:02:47 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-58HIIPD3-58ESHHLC-13ADH40@news.intone-mail.de>
+                 [size] => 37544
+                 [uid] => 11805
+                 [msgno] => 6865
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673777064
+             )
+     
+         [25] => stdClass Object
+             (
+                 [subject] => Finanzcheck findet den passenden Kredit
+                 [from] => Hohe Kosten zum Jahresstart? <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 15 Jan 2023 13:05:40 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vcux4bt4ddpvrwaww2rurxfl2xmarb477wkrjn62q@io.topmailing.de>
+                 [size] => 35942
+                 [uid] => 11806
+                 [msgno] => 6866
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673786543
+             )
+     
+         [26] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Deutsche_Postcode_Lotterie:_6?= =?UTF-8?Q?7_Mio._=E2=82=AC_in_2023_zu_gewinnen!?=
+                 [from] => "=?UTF-8?Q?Nur_12,50=E2=82=AC_im_Monat:_Jetzt_Ihr_Los_sichern!?=" <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 15 Jan 2023 17:01:47 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-58HXJ8PS-58CWYJAO-3IN1APE@news.intone-mail.de>
+                 [size] => 29812
+                 [uid] => 11807
+                 [msgno] => 6867
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673798580
+             )
+     
+         [27] => stdClass Object
+             (
+                 [subject] => =?utf-8?q?Du_wirst_sofort_unsere_unmittelbaren_Verkupplungs-_Optionen_m=C3=B6gen?=
+                 [from] => naabbamary1993@gmail.com
+                 [to] => naabbamary1993@gmail.com
+                 [date] => Sun, 15 Jan 2023 19:33:57 -0800 (PST)
+                 [message_id] => <63c4c5a5.170a0220.73a6c.98b0@mx.google.com>
+                 [size] => 48849
+                 [uid] => 11808
+                 [msgno] => 6868
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673840038
+             )
+     
+         [28] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Jetzt_American_Express=C2=AE_Card?= =?UTF-8?Q?_ohne_Jahresgeb=C3=BChr,_Herr_May?=
+                 [from] => =?UTF-8?Q?Ihr_Antrag_wurde_genehmigt_=E2=9C=85?= <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 16 Jan 2023 09:02:53 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-58IJWBFJ-58CXZVXB-NMISX@news.intone-mail.de>
+                 [size] => 89208
+                 [uid] => 11809
+                 [msgno] => 6869
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673856322
+             )
+     
+         [29] => stdClass Object
+             (
+                 [subject] => Immobilien-Teilverkauf und Zuhause wohnen bleiben
+                 [from] => =?UTF-8?Q?Engel_&_V=C3=B6lkers_LiquidHome?= <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 16 Jan 2023 10:02:58 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-58INNV9N-57G51WID-FE0QPU@news.intone-mail.de>
+                 [size] => 25985
+                 [uid] => 11810
+                 [msgno] => 6870
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673859898
+             )
+     
+         [30] => stdClass Object
+             (
+                 [subject] => Kostenexplosion im neuen Jahr? smava hilft, Herr May
+                 [from] => =?UTF-8?Q?smava_-_Ihr_Portal_f=C3=BCr_Finanzfragen?= <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 16 Jan 2023 10:08:00 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vdwrywu4blo6b4fo7mt7jcmsuatoyswcaar4jcavq@io.topmailing.de>
+                 [size] => 33020
+                 [uid] => 11811
+                 [msgno] => 6871
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673861389
+             )
+     
+         [31] => stdClass Object
+             (
+                 [subject] => Gewinnchance sichern & Gutes tun!
+                 [from] => Deutsche Postcode Lotterie <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 16 Jan 2023 13:04:00 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-58J9EDWG-58CPUJ83-KBEWE8@news.intone-mail.de>
+                 [size] => 35712
+                 [uid] => 11812
+                 [msgno] => 6872
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673870736
+             )
+     
+         [32] => stdClass Object
+             (
+                 [subject] => Jetzt kostenfrei nach Hause ordern, Herr May
+                 [from] => Neuer kostenloser Hausbaukatalog 2023 <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 16 Jan 2023 14:05:40 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vdswjn655mdpoqpz6adccls4j47gc6g65uit2tsba@io.topmailing.de>
+                 [size] => 30581
+                 [uid] => 11813
+                 [msgno] => 6873
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673876286
+             )
+     
+         [33] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?G=C3=BCnstiger_als_Ihr_Dispo,_Herr_May?=
+                 [from] => Online Sofortkredit mit smava <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 16 Jan 2023 16:03:15 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-58JMKASI-58EHV4TG-IWCGNA@news.intone-mail.de>
+                 [size] => 38220
+                 [uid] => 11814
+                 [msgno] => 6874
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673881468
+             )
+     
+         [34] => stdClass Object
+             (
+                 [subject] => Ich werde Ihnen die Zukunft zeigen!
+                 [from] => Mein Name ist Athena <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 16 Jan 2023 16:06:10 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vdsyl4o4vg636v2gdq26cw6q4afcgsywyone2o5cq@io.topmailing.de>
+                 [size] => 17503
+                 [uid] => 11815
+                 [msgno] => 6875
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673886724
+             )
+     
+         [35] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Kredite_ab_0,68%_vergleichen_und_Traum_erf=C3=BCllen?=
+                 [from] => Kreditvergleich 01/23 <nachricht@basic.marketing-mailer.de>
+                 [to] => marius006@gmx.de
+                 [date] => 16 Jan 2023 20:20:45 -0000
+                 [message_id] => <5607e4aa8f98813f14ab4b221bab222f@basic.marketing-mailer.de>
+                 [size] => 36415
+                 [uid] => 11816
+                 [msgno] => 6876
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673900446
+             )
+     
+         [36] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Innerhalb_k=C3=BCrzester_Zeit_auf_Ihrem_Konto,_Herr_May?=
+                 [from] => Der Finanzcheck Online-Sofortkredit <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Tue, 17 Jan 2023 10:02:24 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-58KUYYOQ-58EH9UVU-16ATV8B@news.intone-mail.de>
+                 [size] => 41276
+                 [uid] => 11817
+                 [msgno] => 6877
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673946300
+             )
+     
+         [37] => stdClass Object
+             (
+                 [subject] => [GitHub] Your Dependabot alerts for the week of Jan 10 - Jan 17
+                 [from] => GitHub <noreply@github.com>
+                 [to] => vollgutalter <Marius006@gmx.de>
+                 [date] => Tue, 17 Jan 2023 10:25:09 +0000 (UTC)
+                 [message_id] => <63c67784e8fac_9371c5bc846e@github-lowworker-f5fb877.va3-iad.github.net.mail>
+                 [size] => 44333
+                 [uid] => 11818
+                 [msgno] => 6878
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673951111
+             )
+     
+         [38] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?=E2=9D=97Neuer_kostenloser_Hausbaukatalog?= =?UTF-8?Q?_2023_-_Jetzt_bestellen,_Herr_May=E2=9D=97?=
+                 [from] => =?UTF-8?Q?Zum_St=C3=B6bern?= <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Tue, 17 Jan 2023 14:02:35 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-58LELVOP-58EIMBK6-8KT59B@news.intone-mail.de>
+                 [size] => 45425
+                 [uid] => 11819
+                 [msgno] => 6879
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673960585
+             )
+     
+         [39] => stdClass Object
+             (
+                 [subject] => Sofortkredit komplett online,  Herr May
+                 [from] => Finanzcheck kanns! <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Tue, 17 Jan 2023 13:05:50 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vdrfj3jke6atjyrh46iix7bfdnd3kolwxk3f73r3a@io.topmailing.de>
+                 [size] => 35932
+                 [uid] => 11820
+                 [msgno] => 6880
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673960677
+             )
+     
+         [40] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?35_EUR_Startguthaben_zur_geb=C3=BChrenfreien_Visa_Karte?=
+                 [from] => Ihr Neujahrsbonus <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Tue, 17 Jan 2023 16:03:04 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-58LM970W-58JBBAA2-23P8XH@news.intone-mail.de>
+                 [size] => 36894
+                 [uid] => 11821
+                 [msgno] => 6881
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673967866
+             )
+     
+         [41] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Die_brillen.de_Sensationsdeal:_Wir_schenken_Dir_e?= =?UTF-8?Q?ine_komplette_Gleitsichtbrille_im_Wert_von_158_=E2=82=AC!?=
+                 [from] => Der Sensationsdeal 2023 <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Tue, 17 Jan 2023 16:05:00 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vdeeml3qoxsu4dousxyfpwgptleesdrceogj6fhga@io.topmailing.de>
+                 [size] => 44522
+                 [uid] => 11822
+                 [msgno] => 6882
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1673972646
+             )
+     
+         [42] => stdClass Object
+             (
+                 [subject] => Jetzt Ihre Immobilie unverbindlich bewerten lassen, Herr May
+                 [from] => Immobilien-Verkaufswerte 2023 <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Wed, 18 Jan 2023 07:05:00 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vd3cakgexqbegk47ac3axqbeck5g7l3iu5xtbnurq@io.topmailing.de>
+                 [size] => 31677
+                 [uid] => 11823
+                 [msgno] => 6883
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1674021919
+             )
+     
+         [43] => stdClass Object
+             (
+                 [subject] => =?utf-8?q?Deine_eigenen_Aff=C3=A4ren_in_deinem_Ort=2E_Habe_heute_Damen?=
+                 [from] => gloriadauda4real@gmail.com
+                 [to] => gloriadauda4real@gmail.com
+                 [date] => Tue, 17 Jan 2023 22:59:37 -0800 (PST)
+                 [message_id] => <63c798d9.1c0a0220.c77d3.266f@mx.google.com>
+                 [size] => 48819
+                 [uid] => 11824
+                 [msgno] => 6884
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1674025178
+             )
+     
+         [44] => stdClass Object
+             (
+                 [subject] => Letzte Mahnung zu deiner offenen Rechnung bei Aliexpress | Voraussichtliche =?UTF-8?B?w5xiZXJnYWJl?= an unseren Inkassopartner
+                 [from] => Klarna | Aliexpress <noreply-de@klarna.de>
+                 [to] => marius006@gmx.de
+                 [date] => Wed, 18 Jan 2023 08:18:00 +0000 (UTC)
+                 [message_id] => <1094963842.96234.1674002891200@ip-10-228-212-170.int.klarna.net>
+                 [size] => 79553
+                 [uid] => 11825
+                 [msgno] => 6885
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1674029883
+             )
+     
+         [45] => stdClass Object
+             (
+                 [subject] => Wie wahrscheinlich ist es, dass Sie uns Ihren Freunden oder Kollegen empfehlen?
+                 [from] => Admiral Markets <info@admiralmarkets.de>
+                 [to] => Werner Michael May <marius006@gmx.de>
+                 [date] => Wed, 18 Jan 2023 11:51:24 +0100 (CET)
+                 [message_id] => <8060838994.39084093@smgrid.com8060838994>
+                 [size] => 31121
+                 [uid] => 11826
+                 [msgno] => 6886
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1674039218
+             )
+     
+         [46] => stdClass Object
+             (
+                 [subject] => Mit smava zum Sofortkredit, Herr May
+                 [from] => Finanzieller Engpass? <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Wed, 18 Jan 2023 13:07:15 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vcgqn6yhxt3xlrdxr75bbl4edrhycaesisffcomza@io.topmailing.de>
+                 [size] => 32971
+                 [uid] => 11827
+                 [msgno] => 6887
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1674046390
+             )
+     
+         [47] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Ihre_American_Express=C2=AE_Card,_Herr_May?=
+                 [from] => Bis zu 45 Euro Startguthaben sichern <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Wed, 18 Jan 2023 15:02:25 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-58N7B3PY-58L3R9B2-M5317JM@news.intone-mail.de>
+                 [size] => 89706
+                 [uid] => 11828
+                 [msgno] => 6888
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1674050551
+             )
+     
+         [48] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Mein_Tarot_der_Sterne_ist_bereit_f=C3=BCr_Sie!?=
+                 [from] => Entdecken Sie Ihre strahlende Zukunft <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Wed, 18 Jan 2023 15:05:10 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vd5v3rp4o63xqxe7pyd3quoturbbfmt3g4btqyw7a@io.topmailing.de>
+                 [size] => 17543
+                 [uid] => 11829
+                 [msgno] => 6889
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1674052650
+             )
+     
+         [49] => stdClass Object
+             (
+                 [subject] => Umfrage: Neuer Verteidigungsminister
+                 [from] => Freie Presse <service@freiepresse.de>
+                 [to] => Marius006@gmx.de
+                 [date] => Wed, 18 Jan 2023 17:27:35 +0100
+                 [message_id] => <c2q.292.zdg@sendnode.com>
+                 [size] => 35761
+                 [uid] => 11830
+                 [msgno] => 6890
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1674059275
+             )
+     
+         [50] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Ihre=2050=2E000=20=E2=82=AC=20zum=20Niedrigzins?=
+                 [from] => Zur Auszahlung <mail@kredit-info24.de>
+                 [to] => Marius006@gmx.de
+                 [date] => 18 Jan 2023 20:33:14 -0000
+                 [message_id] => <mid-b16afe2e89ba3dd84b9e96f551130919-3@kredit-info24.de>
+                 [size] => 30848
+                 [uid] => 11831
+                 [msgno] => 6891
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1674073994
+             )
+     
+         [51] => stdClass Object
+             (
+                 [subject] => [GitHub] Please verify your device
+                 [from] => GitHub <noreply@github.com>
+                 [to] => vollgutalter <Marius006@gmx.de>
+                 [date] => Fri, 20 Jan 2023 20:00:54 -0800
+                 [message_id] => <63cb63765b300_d30c5bc2714a@lowworker-6688bf6dbd-5mckj.mail>
+                 [size] => 6593
+                 [uid] => 11852
+                 [msgno] => 6892
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1674273655
+             )
+     
+         [52] => stdClass Object
+             (
+                 [subject] => [GitHub] Your Dependabot alerts for the week of Jan 17 - Jan 24
+                 [from] => GitHub <noreply@github.com>
+                 [to] => vollgutalter <Marius006@gmx.de>
+                 [date] => Tue, 24 Jan 2023 08:34:48 +0000 (UTC)
+                 [message_id] => <63cf982846ec_3ccdc5bc378bd@github-lowworker-67157f6.ash1-iad.github.net.mail>
+                 [size] => 44282
+                 [uid] => 11881
+                 [msgno] => 6893
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1674549290
+             )
+     
+         [53] => stdClass Object
+             (
+                 [subject] => Announcement: Shoelace 2.0 is here!
+                 [from] => Font Awesome <hello@m.fontawesome.com>
+                 [to] => marius006@gmx.de
+                 [date] => Wed, 25 Jan 2023 16:14:53 +0000 (UTC)
+                 [message_id] => <Hfs_ldm9TgSh0vkpZBu1wA@geopod-ismtpd-2-3>
+                 [size] => 37866
+                 [uid] => 11897
+                 [msgno] => 6894
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1674663296
+             )
+     
+         [54] => stdClass Object
+             (
+                 [subject] => Introducing Podcast Awesome!
+                 [from] => Jory at Font Awesome <jory@m.fontawesome.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 27 Jan 2023 16:29:27 +0000 (UTC)
+                 [message_id] => <1Z3zzAFAQvWMwVbEfxMvDA@geopod-ismtpd-5-1>
+                 [size] => 38586
+                 [uid] => 11918
+                 [msgno] => 6895
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1674836969
+             )
+     
+         [55] => stdClass Object
+             (
+                 [subject] => [GitHub] Your Dependabot alerts for the week of Jan 24 - Jan 31
+                 [from] => GitHub <noreply@github.com>
+                 [to] => vollgutalter <Marius006@gmx.de>
+                 [date] => Tue, 31 Jan 2023 12:32:29 +0000 (UTC)
+                 [message_id] => <63d90a5d95dae_3786c5bc53983@github-lowworker-b089360.ash1-iad.github.net.mail>
+                 [size] => 44306
+                 [uid] => 11948
+                 [msgno] => 6896
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675168352
+             )
+     
+         [56] => stdClass Object
+             (
+                 [subject] => Host your own icons [and more] with Kit Download!
+                 [from] => Font Awesome <hello@m.fontawesome.com>
+                 [to] => marius006@gmx.de
+                 [date] => Tue, 31 Jan 2023 15:38:26 +0000 (UTC)
+                 [message_id] => <FtNIny3TQ0eKb-6gDqLcQA@geopod-ismtpd-canary-0>
+                 [size] => 41032
+                 [uid] => 11953
+                 [msgno] => 6897
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675179508
+             )
+     
+         [57] => stdClass Object
+             (
+                 [subject] => [MayCo-de/die-spaghetti-coder] Responsive Styling (#1)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [date] => Tue, 31 Jan 2023 18:56:34 +0000 (UTC)
+                 [message_id] => <MayCo-de/die-spaghetti-coder/discussions/1@github.com>
+                 [size] => 9847
+                 [uid] => 11956
+                 [msgno] => 6898
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675191396
+             )
+     
+         [58] => stdClass Object
+             (
+                 [subject] => [GitHub] Subscribed to MayCo-de/Splint notifications
+                 [from] => GitHub <noreply@github.com>
+                 [to] => Marius006@gmx.de
+                 [date] => Tue, 31 Jan 2023 11:22:50 -0800
+                 [message_id] => <63d96a8ac12_1f1cc5bc605176@github-lowworker-f5fb877.va3-iad.github.net.mail>
+                 [size] => 6667
+                 [uid] => 11957
+                 [msgno] => 6899
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675192971
+             )
+     
+         [59] => stdClass Object
+             (
+                 [subject] => [GitHub] You've been made an owner of the "MayCo{de}" organization
+                 [from] => MayCo{de} <noreply@github.com>
+                 [to] => vollgutalter <Marius006@gmx.de>
+                 [date] => Tue, 31 Jan 2023 19:50:42 +0000 (UTC)
+                 [message_id] => <63d9711285233_72c5bc407ef@lowworker-5f946f787f-gxnhf.mail>
+                 [size] => 28578
+                 [uid] => 11958
+                 [msgno] => 6900
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675194645
+             )
+     
+         [60] => stdClass Object
+             (
+                 [subject] => [GitHub] Subscribed to MayCo-de/website-theme notifications
+                 [from] => GitHub <noreply@github.com>
+                 [to] => Marius006@gmx.de
+                 [date] => Wed, 01 Feb 2023 07:13:11 -0800
+                 [message_id] => <63da81872434_9787c5bc1644df@github-lowworker-89f3697.ash1-iad.github.net.mail>
+                 [size] => 6659
+                 [uid] => 11964
+                 [msgno] => 6901
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675264392
+             )
+     
+         [61] => stdClass Object
+             (
+                 [subject] => [MayCo-de/website-theme] setup theme toogle (PR #1)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 11:48:15 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/1@github.com>
+                 [size] => 11362
+                 [uid] => 11966
+                 [msgno] => 6902
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675280896
+             )
+     
+         [62] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/website-theme] setup theme toogle (PR #1)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 11:49:48 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/1/issue_event/8414070935@github.com>
+                 [references] => <MayCo-de/website-theme/pull/1@github.com>
+                 [in_reply_to] => <MayCo-de/website-theme/pull/1@github.com>
+                 [size] => 9351
+                 [uid] => 11967
+                 [msgno] => 6903
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675280989
+             )
+     
+         [63] => stdClass Object
+             (
+                 [subject] => [MayCo-de/website-theme] Add github actions yml (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 13:24:10 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/2@github.com>
+                 [size] => 10368
+                 [uid] => 11969
+                 [msgno] => 6904
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675286651
+             )
+     
+         [64] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/website-theme] Add github actions yml (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 13:24:14 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/2/issue_event/8414775910@github.com>
+                 [references] => <MayCo-de/website-theme/pull/2@github.com>
+                 [in_reply_to] => <MayCo-de/website-theme/pull/2@github.com>
+                 [size] => 9340
+                 [uid] => 11970
+                 [msgno] => 6905
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675286656
+             )
+     
+         [65] => stdClass Object
+             (
+                 [subject] => Ihr Einmalcode
+                 [from] => Microsoft-Konto-Team <account-security-noreply@accountprotection.microsoft.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 03 Feb 2023 12:34:13 -0800
+                 [message_id] => <GCXQXFB73JU4.X30E4YVLOXSS1@BL02EPF0000195E>
+                 [size] => 12223
+                 [uid] => 11987
+                 [msgno] => 6906
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675456458
+             )
+     
+         [66] => stdClass Object
+             (
+                 [subject] => [Important Action Required] Reset your ClickUp password
+                 [from] => ClickUp Team <alerts@help.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 20:35:20 +0000
+                 [message_id] => <0101018618fda06b-884116c1-b8b9-41a2-b3cb-b9204a366089-000000@us-west-2.amazonses.com>
+                 [size] => 14995
+                 [uid] => 11988
+                 [msgno] => 6907
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675456522
+             )
+     
+         [67] => stdClass Object
+             (
+                 [subject] => [GitHub] Subscribed to MayCo-de/email-client notifications
+                 [from] => GitHub <noreply@github.com>
+                 [to] => Marius006@gmx.de
+                 [date] => Fri, 03 Feb 2023 14:31:52 -0800
+                 [message_id] => <63dd8b58a5274_1383c5bc7115c@github-lowworker-5825cd4.ac4-iad.github.net.mail>
+                 [size] => 6657
+                 [uid] => 11989
+                 [msgno] => 6908
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675463513
+             )
+     
+         [68] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?[MayCo-de/email-client]_Fenster_=C3=B6ffnen_und_HTML?= =?UTF-8?Q?_Datei_anzeigen_=28PR_#1=29?=
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 14:40:03 -0800
+                 [message_id] => <MayCo-de/email-client/pull/1@github.com>
+                 [size] => 11536
+                 [uid] => 11990
+                 [msgno] => 6909
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675464004
+             )
+     
+         [69] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Re:_[MayCo-de/email-client]_Fenster_=C3=B6ffnen_und_HTML?= =?UTF-8?Q?_Datei_anzeigen_=28PR_#1=29?=
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 14:41:35 -0800
+                 [message_id] => <MayCo-de/email-client/pull/1/issue_event/8436917829@github.com>
+                 [references] => <MayCo-de/email-client/pull/1@github.com>
+                 [in_reply_to] => <MayCo-de/email-client/pull/1@github.com>
+                 [size] => 9403
+                 [uid] => 11991
+                 [msgno] => 6910
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675464096
+             )
+     
+         [70] => stdClass Object
+             (
+                 [subject] => [MayCo-de/email-client] Bootstrap 5 Icons eingebunden und PHP Code entfernt (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:01:38 -0800
+                 [message_id] => <MayCo-de/email-client/pull/2@github.com>
+                 [size] => 10841
+                 [uid] => 11992
+                 [msgno] => 6911
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675465300
+             )
+     
+         [71] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/email-client] Bootstrap 5 Icons eingebunden und PHP Code entfernt (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:02:04 -0800
+                 [message_id] => <MayCo-de/email-client/pull/2/issue_event/8437009095@github.com>
+                 [references] => <MayCo-de/email-client/pull/2@github.com>
+                 [in_reply_to] => <MayCo-de/email-client/pull/2@github.com>
+                 [size] => 9356
+                 [uid] => 11993
+                 [msgno] => 6912
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675465325
+             )
+     
+         [72] => stdClass Object
+             (
+                 [subject] => Colin Grahm Media invited you to ClickUp
+                 [from] => ClickUp Team <alerts@help.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 23:13:33 +0000
+                 [message_id] => <01010186198e7cbd-cc7f9060-6297-4500-83bd-c131e0286cce-000000@us-west-2.amazonses.com>
+                 [size] => 20439
+                 [uid] => 11994
+                 [msgno] => 6913
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675466016
+             )
+     
+         [73] => stdClass Object
+             (
+                 [subject] => [MayCo-de/email-client] test (PR #3)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:40:07 -0800
+                 [message_id] => <MayCo-de/email-client/pull/3@github.com>
+                 [size] => 10500
+                 [uid] => 11995
+                 [msgno] => 6914
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675467608
+             )
+     
+         [74] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/email-client] test (PR #3)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:40:15 -0800
+                 [message_id] => <MayCo-de/email-client/pull/3/issue_event/8437180568@github.com>
+                 [references] => <MayCo-de/email-client/pull/3@github.com>
+                 [in_reply_to] => <MayCo-de/email-client/pull/3@github.com>
+                 [size] => 9322
+                 [uid] => 11996
+                 [msgno] => 6915
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675467616
+             )
+     
+         [75] => stdClass Object
+             (
+                 [subject] => Test Aufgabe
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 23:57:34 +0000
+                 [message_id] => <0101018619b6c90a-08e77642-b6f7-432c-8558-7e77e215c7c1-000000@us-west-2.amazonses.com>
+                 [size] => 19802
+                 [uid] => 11997
+                 [msgno] => 6916
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675468657
+             )
+     
+         [76] => stdClass Object
+             (
+                 [subject] => task 1
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 23:58:21 +0000
+                 [message_id] => <0101018619b77e1e-50de59ff-6db2-47ce-9f10-03c792d9e8c6-000000@us-west-2.amazonses.com>
+                 [size] => 20362
+                 [uid] => 11998
+                 [msgno] => 6917
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675468703
+             )
+     
+         [77] => stdClass Object
+             (
+                 [subject] => Emails listen
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:34 +0000
+                 [message_id] => <0101018619ce971f-56b06ec0-2afe-47b2-961e-17191504e5c0-000000@us-west-2.amazonses.com>
+                 [size] => 19756
+                 [uid] => 11999
+                 [msgno] => 6918
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470217
+             )
+     
+         [78] => stdClass Object
+             (
+                 [subject] => Emails
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:35 +0000
+                 [message_id] => <0101018619ce9955-6c7b8a29-64b1-430a-9877-37299ed8ef77-000000@us-west-2.amazonses.com>
+                 [size] => 19765
+                 [uid] => 12000
+                 [msgno] => 6919
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470218
+             )
+     
+         [79] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Entw=C3=BCrfe_speichern?=
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:36 +0000
+                 [message_id] => <0101018619ce9d69-fedc67ea-beb5-4e26-b9bd-df8f5c2f7c13-000000@us-west-2.amazonses.com>
+                 [size] => 19785
+                 [uid] => 12001
+                 [msgno] => 6920
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470219
+             )
+     
+         [80] => stdClass Object
+             (
+                 [subject] => In Emails suchen
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:40 +0000
+                 [message_id] => <0101018619cead60-677de606-603a-421a-9e64-2022ce3d1bf2-000000@us-west-2.amazonses.com>
+                 [size] => 19762
+                 [uid] => 12002
+                 [msgno] => 6921
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470223
+             )
+     
+     )
+     
+[05-02 00:03][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\email.php(18)
+[05-02 00:03][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\emailAccess.php(8)
+
+
+     Array
+     (
+         [0] => stdClass Object
+             (
+                 [subject] => Mit Finanzcheck zum passenden Kredit, Herr May
+                 [from] => "Sofortkredit mit Finanzcheck.de" <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 12 Dec 2022 10:06:31 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vdickkj2k3hjfmjuxhubw3iodtberyatio5hicela@io.topmailing.de>
+                 [size] => 39729
+                 [uid] => 11451
+                 [msgno] => 6821
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1670836967
+             )
+     
+         [1] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Ab_sofort_Geld_beim_Zahnarzt_sparen_=E2=80=93_Ihre?= =?UTF-8?Q?_individuelle_Beratung_unter_0800_555_8080.?=
+                 [from] => =?UTF-8?Q?Mit_Sicherheit_sch=C3=B6ne_Z=C3=A4hn?= =?UTF-8?Q?e_=E2=80=93_sparen_Sie_bares_Geld!?= <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 12 Dec 2022 12:03:05 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-56ZDIGP3-56U8L9A8-OGR5JI@news.intone-mail.de>
+                 [size] => 39541
+                 [uid] => 11452
+                 [msgno] => 6822
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1670843133
+             )
+     
+         [2] => stdClass Object
+             (
+                 [subject] => Das beste Angebot wartet auf dich
+                 [from] => Jetzt sichern <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 12 Dec 2022 12:06:10 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vd2iekzyahkkmzw2t3xv3adwrc3mxtjjnkbabgi2q@io.topmailing.de>
+                 [size] => 24838
+                 [uid] => 11453
+                 [msgno] => 6823
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1670844609
+             )
+     
+         [3] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Eine_der_f=C3=BChrenden_Kanzleien_f=C3=BCr_Verbraucherschutz?=
+                 [from] => =?UTF-8?Q?Gansel_Rechtsanw=C3=A4lte?= <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 12 Dec 2022 13:05:00 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vdc7lsewcxcz4c7jtqngtbapfgueiz3x3bemvwuea@io.topmailing.de>
+                 [size] => 51367
+                 [uid] => 11454
+                 [msgno] => 6824
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1670846917
+             )
+     
+         [4] => stdClass Object
+             (
+                 [subject] => Gewinnen Sie einen AIDA All-inclusive-Urlaub, Herr May
+                 [from] => Jetzt mitspielen <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 12 Dec 2022 14:04:33 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-56ZLE0AU-56TPH5UG-UGNKC7@news.intone-mail.de>
+                 [size] => 32381
+                 [uid] => 11455
+                 [msgno] => 6825
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1670850542
+             )
+     
+         [5] => stdClass Object
+             (
+                 [subject] => Herr May, Ihre American Express Card wartet auf Sie
+                 [from] => Ihre American Express Gold Card <news@news.intone-mail.de>
+                 [to] => Marius006@gmx.de
+                 [date] => Mon, 12 Dec 2022 14:04:50 +0100 (CET)
+                 [message_id] => <re-pm3dWRVndhx57b7poHb7ggo-56ZLQ7OD-56OIQMI4-FZ219U@news.intone-mail.de>
+                 [size] => 78154
+                 [uid] => 11456
+                 [msgno] => 6826
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1670850709
+             )
+     
+         [6] => stdClass Object
+             (
+                 [subject] => Mit Finanzcheck zum passenden Kredit, Herr May
+                 [from] => "Sofortkredit mit Finanzcheck.de" <news@news.intone-mail.de>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 12 Dec 2022 15:03:13 +0100 (CET)
+                 [message_id] => <re-pX3dWRVndhx57b7poHb7ggo-56ZOJKR7-56U8TUEQ-FXNHE@news.intone-mail.de>
+                 [size] => 45539
+                 [uid] => 11457
+                 [msgno] => 6827
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1670853841
+             )
+     
+         [7] => stdClass Object
+             (
+                 [subject] => Diese Produkte sind kostenfrei - ab Pflegegrad 1
+                 [from] => Kostenlose Pflegehilfsmittel <news@io.topmailing.de>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 12 Dec 2022 16:34:20 +0100 (CET)
+                 [message_id] => <hdh3vfe5bp5vdlz6qdcrl7ochikzbsxkxbzrhp6ri4b63hrcs7ta@io.topmailing.de>
+                 [size] => 44029
+                 [uid] => 11458
+                 [msgno] => 6828
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1670859335
+             )
+     
+         [8] => stdClass Object
+             (
+                 [subject] => =?utf-8?q?Katalon_now_integrates_with_Xray!=0D=0A?=
+                 [from] => Katalon Team <hello@katalon.com>
+                 [to] => marius006@gmx.de
+                 [date] => Mon, 12 Dec 2022 16:11:14 +0000
+                 [message_id] => <202212121611.29py0fayfq4rj@ay.d.mailin.fr>
+                 [size] => 38949
+                 [uid] => 11459
+                 [msgno] => 6829
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1670861476
+             )
+     
+         [9] => stdClass Object
+             (
+                 [subject] => nanogallery2
+                 [from] => Colin Grahm <ceo@colingrahm.de>
+                 [to] => Marius May <marius006@gmx.de>
+                 [date] => Tue, 13 Dec 2022 03:20:47 +0100
+                 [message_id] => <510dad41-d0de-e4db-7168-8d251027b3d1@colingrahm.de>
+                 [size] => 7828
+                 [uid] => 11460
+                 [msgno] => 6830
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1670898048
+             )
+     
+         [10] => stdClass Object
+             (
+                 [subject] => [GitHub] Please verify your device
+                 [from] => GitHub <noreply@github.com>
+                 [to] => vollgutalter <Marius006@gmx.de>
+                 [date] => Mon, 12 Dec 2022 18:31:25 -0800
+                 [message_id] => <6397e3fdf35c7_6dc710686c5@lowworker-85bdc46f77-vdh6n.mail>
+                 [size] => 7672
+                 [uid] => 11461
+                 [msgno] => 6831
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1670898687
+             )
+     
+         [11] => stdClass Object
+             (
+                 [subject] => [GitHub] Your Dependabot alerts for the week of Dec 6 - Dec 13
+                 [from] => GitHub <noreply@github.com>
+                 [to] => vollgutalter <Marius006@gmx.de>
+                 [date] => Tue, 13 Dec 2022 11:17:12 +0000 (UTC)
+                 [message_id] => <63985f383d9b4_9cc8c71077926@github-lowworker-d2b79e6.va3-iad.github.net.mail>
+                 [size] => 35551
+                 [uid] => 11469
+                 [msgno] => 6832
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1670930233
+             )
+     
+         [12] => stdClass Object
+             (
+                 [subject] => Rovyjlub, find new ways to save with DoorDash
+                 [from] => DoorDash <no-reply@doordash.com>
+                 [to] => Rovyjlub Xdheqlknwj <marius006@gmx.de>
+                 [date] => Thu, 15 Dec 2022 19:10:05 +0000
+                 [message_id] => <FA.91.17833.D017B936@im.mta1vrest.cc.prd.sparkpost>
+                 [size] => 74927
+                 [uid] => 11501
+                 [msgno] => 6833
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1671131407
+             )
+     
+         [13] => stdClass Object
+             (
+                 [subject] => 
+                 [from] => Funken Design <funkendesigninfo@gmail.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 18 Dec 2022 21:30:17 +0100
+                 [message_id] => <CAB=4AUmm_F+E=eJGczjHN02rr878p0zYsGUQuJ-+4x+L7k=VRA@mail.gmail.com>
+                 [size] => 8052
+                 [uid] => 11547
+                 [msgno] => 6834
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1671395430
+             )
+     
+         [14] => stdClass Object
+             (
+                 [subject] => Ihr Einmalcode
+                 [from] => Microsoft-Konto-Team <account-security-noreply@accountprotection.microsoft.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sun, 18 Dec 2022 23:35:26 -0800
+                 [message_id] => <PG7R1N6YOIU4.S7YALB0WJRDL3@BY1PEPF00001B42>
+                 [size] => 11950
+                 [uid] => 11553
+                 [msgno] => 6835
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1671435330
+             )
+     
+         [15] => stdClass Object
+             (
+                 [subject] => [GitHub] Your Dependabot alerts for the week of Dec 13 - Dec 20
+                 [from] => GitHub <noreply@github.com>
+                 [to] => vollgutalter <Marius006@gmx.de>
+                 [date] => Tue, 20 Dec 2022 09:28:43 +0000 (UTC)
+                 [message_id] => <63a1804aeafc8_11b9c710940d5@github-lowworker-a24713b.va3-iad.github.net.mail>
+                 [size] => 35509
+                 [uid] => 11566
+                 [msgno] => 6836
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1671528525
+             )
+     
+         [16] => stdClass Object
+             (
+                 [subject] => =?UTF-8?b?V2FpdCEgQmVmb3JlIHlvdSBnb+KApiDinaTvuI8=?=
+                 [from] => Natalie from Unsplash <marketing@unsplash.com>
+                 [to] => marius006@gmx.de
+                 [date] => Tue, 20 Dec 2022 21:10:30 +0000
+                 [message_id] => <20221220211030.5cb6736ecbf08157@unsplash.com>
+                 [size] => 32077
+                 [uid] => 11574
+                 [msgno] => 6837
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1671570640
+             )
+     
+         [17] => stdClass Object
+             (
+                 [subject] => Font Awesome 2022 Year in Review
+                 [from] => Jory at Font Awesome <jory@m.fontawesome.com>
+                 [to] => marius006@gmx.de
+                 [date] => Wed, 21 Dec 2022 16:04:57 +0000 (UTC)
+                 [message_id] => <lUEIdxmiT-eHpEDpHOBW1g@geopod-ismtpd-5-5>
+                 [size] => 63584
+                 [uid] => 11582
+                 [msgno] => 6838
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1671638700
+             )
+     
+         [18] => stdClass Object
+             (
+                 [subject] => [GitHub] Please verify your device
+                 [from] => GitHub <noreply@github.com>
+                 [to] => vollgutalter <Marius006@gmx.de>
+                 [date] => Thu, 22 Dec 2022 12:48:33 -0800
+                 [message_id] => <63a4c2a19dde1_82c71034759@lowworker-76c5d4c799-rzxpq.mail>
+                 [size] => 6565
+                 [uid] => 11599
+                 [msgno] => 6839
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1671742114
+             )
+     
+         [19] => stdClass Object
+             (
+                 [subject] => Happy Holidays from TurboSquid
+                 [from] => TurboSquid <info@turbosquid.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 23 Dec 2022 16:45:21 +0000 (UTC)
+                 [message_id] => <4qwWBMZXS8CzFY8MKsr0iw@geopod-ismtpd-4-2>
+                 [size] => 45504
+                 [uid] => 11610
+                 [msgno] => 6840
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1671813924
+             )
+     
+         [20] => stdClass Object
+             (
+                 [subject] => [GitHub] Your Dependabot alerts for the week of Dec 20 - Dec 27
+                 [from] => GitHub <noreply@github.com>
+                 [to] => vollgutalter <Marius006@gmx.de>
+                 [date] => Tue, 27 Dec 2022 08:26:44 +0000 (UTC)
+                 [message_id] => <63aaac4467747_8105c71025323@github-lowworker-5607382.va3-iad.github.net.mail>
+                 [size] => 35445
+                 [uid] => 11632
+                 [msgno] => 6841
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 0
+                 [draft] => 0
+                 [udate] => 1672129606
+             )
+     
+     )
+     
+[05-02 00:03][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\email.php(18)
+[05-02 00:03][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\emailAccess.php(8)
+
+
+     Array
+     (
+         [0] => stdClass Object
+             (
+                 [subject] => [GitHub] Subscribed to MayCo-de/website-theme notifications
+                 [from] => GitHub <noreply@github.com>
+                 [to] => Marius006@gmx.de
+                 [date] => Wed, 01 Feb 2023 07:13:11 -0800
+                 [message_id] => <63da81872434_9787c5bc1644df@github-lowworker-89f3697.ash1-iad.github.net.mail>
+                 [size] => 6659
+                 [uid] => 11964
+                 [msgno] => 6901
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675264392
+             )
+     
+         [1] => stdClass Object
+             (
+                 [subject] => [MayCo-de/website-theme] setup theme toogle (PR #1)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 11:48:15 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/1@github.com>
+                 [size] => 11362
+                 [uid] => 11966
+                 [msgno] => 6902
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675280896
+             )
+     
+         [2] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/website-theme] setup theme toogle (PR #1)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 11:49:48 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/1/issue_event/8414070935@github.com>
+                 [references] => <MayCo-de/website-theme/pull/1@github.com>
+                 [in_reply_to] => <MayCo-de/website-theme/pull/1@github.com>
+                 [size] => 9351
+                 [uid] => 11967
+                 [msgno] => 6903
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675280989
+             )
+     
+         [3] => stdClass Object
+             (
+                 [subject] => [MayCo-de/website-theme] Add github actions yml (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 13:24:10 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/2@github.com>
+                 [size] => 10368
+                 [uid] => 11969
+                 [msgno] => 6904
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675286651
+             )
+     
+         [4] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/website-theme] Add github actions yml (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 13:24:14 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/2/issue_event/8414775910@github.com>
+                 [references] => <MayCo-de/website-theme/pull/2@github.com>
+                 [in_reply_to] => <MayCo-de/website-theme/pull/2@github.com>
+                 [size] => 9340
+                 [uid] => 11970
+                 [msgno] => 6905
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675286656
+             )
+     
+         [5] => stdClass Object
+             (
+                 [subject] => Ihr Einmalcode
+                 [from] => Microsoft-Konto-Team <account-security-noreply@accountprotection.microsoft.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 03 Feb 2023 12:34:13 -0800
+                 [message_id] => <GCXQXFB73JU4.X30E4YVLOXSS1@BL02EPF0000195E>
+                 [size] => 12223
+                 [uid] => 11987
+                 [msgno] => 6906
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675456458
+             )
+     
+         [6] => stdClass Object
+             (
+                 [subject] => [Important Action Required] Reset your ClickUp password
+                 [from] => ClickUp Team <alerts@help.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 20:35:20 +0000
+                 [message_id] => <0101018618fda06b-884116c1-b8b9-41a2-b3cb-b9204a366089-000000@us-west-2.amazonses.com>
+                 [size] => 14995
+                 [uid] => 11988
+                 [msgno] => 6907
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675456522
+             )
+     
+         [7] => stdClass Object
+             (
+                 [subject] => [GitHub] Subscribed to MayCo-de/email-client notifications
+                 [from] => GitHub <noreply@github.com>
+                 [to] => Marius006@gmx.de
+                 [date] => Fri, 03 Feb 2023 14:31:52 -0800
+                 [message_id] => <63dd8b58a5274_1383c5bc7115c@github-lowworker-5825cd4.ac4-iad.github.net.mail>
+                 [size] => 6657
+                 [uid] => 11989
+                 [msgno] => 6908
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675463513
+             )
+     
+         [8] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?[MayCo-de/email-client]_Fenster_=C3=B6ffnen_und_HTML?= =?UTF-8?Q?_Datei_anzeigen_=28PR_#1=29?=
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 14:40:03 -0800
+                 [message_id] => <MayCo-de/email-client/pull/1@github.com>
+                 [size] => 11536
+                 [uid] => 11990
+                 [msgno] => 6909
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675464004
+             )
+     
+         [9] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Re:_[MayCo-de/email-client]_Fenster_=C3=B6ffnen_und_HTML?= =?UTF-8?Q?_Datei_anzeigen_=28PR_#1=29?=
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 14:41:35 -0800
+                 [message_id] => <MayCo-de/email-client/pull/1/issue_event/8436917829@github.com>
+                 [references] => <MayCo-de/email-client/pull/1@github.com>
+                 [in_reply_to] => <MayCo-de/email-client/pull/1@github.com>
+                 [size] => 9403
+                 [uid] => 11991
+                 [msgno] => 6910
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675464096
+             )
+     
+         [10] => stdClass Object
+             (
+                 [subject] => [MayCo-de/email-client] Bootstrap 5 Icons eingebunden und PHP Code entfernt (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:01:38 -0800
+                 [message_id] => <MayCo-de/email-client/pull/2@github.com>
+                 [size] => 10841
+                 [uid] => 11992
+                 [msgno] => 6911
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675465300
+             )
+     
+         [11] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/email-client] Bootstrap 5 Icons eingebunden und PHP Code entfernt (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:02:04 -0800
+                 [message_id] => <MayCo-de/email-client/pull/2/issue_event/8437009095@github.com>
+                 [references] => <MayCo-de/email-client/pull/2@github.com>
+                 [in_reply_to] => <MayCo-de/email-client/pull/2@github.com>
+                 [size] => 9356
+                 [uid] => 11993
+                 [msgno] => 6912
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675465325
+             )
+     
+         [12] => stdClass Object
+             (
+                 [subject] => Colin Grahm Media invited you to ClickUp
+                 [from] => ClickUp Team <alerts@help.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 23:13:33 +0000
+                 [message_id] => <01010186198e7cbd-cc7f9060-6297-4500-83bd-c131e0286cce-000000@us-west-2.amazonses.com>
+                 [size] => 20439
+                 [uid] => 11994
+                 [msgno] => 6913
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675466016
+             )
+     
+         [13] => stdClass Object
+             (
+                 [subject] => [MayCo-de/email-client] test (PR #3)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:40:07 -0800
+                 [message_id] => <MayCo-de/email-client/pull/3@github.com>
+                 [size] => 10500
+                 [uid] => 11995
+                 [msgno] => 6914
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675467608
+             )
+     
+         [14] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/email-client] test (PR #3)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:40:15 -0800
+                 [message_id] => <MayCo-de/email-client/pull/3/issue_event/8437180568@github.com>
+                 [references] => <MayCo-de/email-client/pull/3@github.com>
+                 [in_reply_to] => <MayCo-de/email-client/pull/3@github.com>
+                 [size] => 9322
+                 [uid] => 11996
+                 [msgno] => 6915
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675467616
+             )
+     
+         [15] => stdClass Object
+             (
+                 [subject] => Test Aufgabe
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 23:57:34 +0000
+                 [message_id] => <0101018619b6c90a-08e77642-b6f7-432c-8558-7e77e215c7c1-000000@us-west-2.amazonses.com>
+                 [size] => 19802
+                 [uid] => 11997
+                 [msgno] => 6916
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675468657
+             )
+     
+         [16] => stdClass Object
+             (
+                 [subject] => task 1
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 23:58:21 +0000
+                 [message_id] => <0101018619b77e1e-50de59ff-6db2-47ce-9f10-03c792d9e8c6-000000@us-west-2.amazonses.com>
+                 [size] => 20362
+                 [uid] => 11998
+                 [msgno] => 6917
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675468703
+             )
+     
+         [17] => stdClass Object
+             (
+                 [subject] => Emails listen
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:34 +0000
+                 [message_id] => <0101018619ce971f-56b06ec0-2afe-47b2-961e-17191504e5c0-000000@us-west-2.amazonses.com>
+                 [size] => 19756
+                 [uid] => 11999
+                 [msgno] => 6918
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470217
+             )
+     
+         [18] => stdClass Object
+             (
+                 [subject] => Emails
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:35 +0000
+                 [message_id] => <0101018619ce9955-6c7b8a29-64b1-430a-9877-37299ed8ef77-000000@us-west-2.amazonses.com>
+                 [size] => 19765
+                 [uid] => 12000
+                 [msgno] => 6919
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470218
+             )
+     
+         [19] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Entw=C3=BCrfe_speichern?=
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:36 +0000
+                 [message_id] => <0101018619ce9d69-fedc67ea-beb5-4e26-b9bd-df8f5c2f7c13-000000@us-west-2.amazonses.com>
+                 [size] => 19785
+                 [uid] => 12001
+                 [msgno] => 6920
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470219
+             )
+     
+         [20] => stdClass Object
+             (
+                 [subject] => In Emails suchen
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:40 +0000
+                 [message_id] => <0101018619cead60-677de606-603a-421a-9e64-2022ce3d1bf2-000000@us-west-2.amazonses.com>
+                 [size] => 19762
+                 [uid] => 12002
+                 [msgno] => 6921
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470223
+             )
+     
+     )
+     
+[05-02 00:04][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\email.php(18)
+[05-02 00:04][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\emailAccess.php(8)
+
+
+     Array
+     (
+         [0] => stdClass Object
+             (
+                 [subject] => [GitHub] You've been made an owner of the "MayCo{de}" organization
+                 [from] => MayCo{de} <noreply@github.com>
+                 [to] => vollgutalter <Marius006@gmx.de>
+                 [date] => Tue, 31 Jan 2023 19:50:42 +0000 (UTC)
+                 [message_id] => <63d9711285233_72c5bc407ef@lowworker-5f946f787f-gxnhf.mail>
+                 [size] => 28578
+                 [uid] => 11958
+                 [msgno] => 6900
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675194645
+             )
+     
+         [1] => stdClass Object
+             (
+                 [subject] => [GitHub] Subscribed to MayCo-de/website-theme notifications
+                 [from] => GitHub <noreply@github.com>
+                 [to] => Marius006@gmx.de
+                 [date] => Wed, 01 Feb 2023 07:13:11 -0800
+                 [message_id] => <63da81872434_9787c5bc1644df@github-lowworker-89f3697.ash1-iad.github.net.mail>
+                 [size] => 6659
+                 [uid] => 11964
+                 [msgno] => 6901
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675264392
+             )
+     
+         [2] => stdClass Object
+             (
+                 [subject] => [MayCo-de/website-theme] setup theme toogle (PR #1)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 11:48:15 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/1@github.com>
+                 [size] => 11362
+                 [uid] => 11966
+                 [msgno] => 6902
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675280896
+             )
+     
+         [3] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/website-theme] setup theme toogle (PR #1)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 11:49:48 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/1/issue_event/8414070935@github.com>
+                 [references] => <MayCo-de/website-theme/pull/1@github.com>
+                 [in_reply_to] => <MayCo-de/website-theme/pull/1@github.com>
+                 [size] => 9351
+                 [uid] => 11967
+                 [msgno] => 6903
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675280989
+             )
+     
+         [4] => stdClass Object
+             (
+                 [subject] => [MayCo-de/website-theme] Add github actions yml (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 13:24:10 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/2@github.com>
+                 [size] => 10368
+                 [uid] => 11969
+                 [msgno] => 6904
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675286651
+             )
+     
+         [5] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/website-theme] Add github actions yml (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 13:24:14 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/2/issue_event/8414775910@github.com>
+                 [references] => <MayCo-de/website-theme/pull/2@github.com>
+                 [in_reply_to] => <MayCo-de/website-theme/pull/2@github.com>
+                 [size] => 9340
+                 [uid] => 11970
+                 [msgno] => 6905
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675286656
+             )
+     
+         [6] => stdClass Object
+             (
+                 [subject] => Ihr Einmalcode
+                 [from] => Microsoft-Konto-Team <account-security-noreply@accountprotection.microsoft.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 03 Feb 2023 12:34:13 -0800
+                 [message_id] => <GCXQXFB73JU4.X30E4YVLOXSS1@BL02EPF0000195E>
+                 [size] => 12223
+                 [uid] => 11987
+                 [msgno] => 6906
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675456458
+             )
+     
+         [7] => stdClass Object
+             (
+                 [subject] => [Important Action Required] Reset your ClickUp password
+                 [from] => ClickUp Team <alerts@help.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 20:35:20 +0000
+                 [message_id] => <0101018618fda06b-884116c1-b8b9-41a2-b3cb-b9204a366089-000000@us-west-2.amazonses.com>
+                 [size] => 14995
+                 [uid] => 11988
+                 [msgno] => 6907
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675456522
+             )
+     
+         [8] => stdClass Object
+             (
+                 [subject] => [GitHub] Subscribed to MayCo-de/email-client notifications
+                 [from] => GitHub <noreply@github.com>
+                 [to] => Marius006@gmx.de
+                 [date] => Fri, 03 Feb 2023 14:31:52 -0800
+                 [message_id] => <63dd8b58a5274_1383c5bc7115c@github-lowworker-5825cd4.ac4-iad.github.net.mail>
+                 [size] => 6657
+                 [uid] => 11989
+                 [msgno] => 6908
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675463513
+             )
+     
+         [9] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?[MayCo-de/email-client]_Fenster_=C3=B6ffnen_und_HTML?= =?UTF-8?Q?_Datei_anzeigen_=28PR_#1=29?=
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 14:40:03 -0800
+                 [message_id] => <MayCo-de/email-client/pull/1@github.com>
+                 [size] => 11536
+                 [uid] => 11990
+                 [msgno] => 6909
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675464004
+             )
+     
+         [10] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Re:_[MayCo-de/email-client]_Fenster_=C3=B6ffnen_und_HTML?= =?UTF-8?Q?_Datei_anzeigen_=28PR_#1=29?=
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 14:41:35 -0800
+                 [message_id] => <MayCo-de/email-client/pull/1/issue_event/8436917829@github.com>
+                 [references] => <MayCo-de/email-client/pull/1@github.com>
+                 [in_reply_to] => <MayCo-de/email-client/pull/1@github.com>
+                 [size] => 9403
+                 [uid] => 11991
+                 [msgno] => 6910
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675464096
+             )
+     
+         [11] => stdClass Object
+             (
+                 [subject] => [MayCo-de/email-client] Bootstrap 5 Icons eingebunden und PHP Code entfernt (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:01:38 -0800
+                 [message_id] => <MayCo-de/email-client/pull/2@github.com>
+                 [size] => 10841
+                 [uid] => 11992
+                 [msgno] => 6911
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675465300
+             )
+     
+         [12] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/email-client] Bootstrap 5 Icons eingebunden und PHP Code entfernt (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:02:04 -0800
+                 [message_id] => <MayCo-de/email-client/pull/2/issue_event/8437009095@github.com>
+                 [references] => <MayCo-de/email-client/pull/2@github.com>
+                 [in_reply_to] => <MayCo-de/email-client/pull/2@github.com>
+                 [size] => 9356
+                 [uid] => 11993
+                 [msgno] => 6912
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675465325
+             )
+     
+         [13] => stdClass Object
+             (
+                 [subject] => Colin Grahm Media invited you to ClickUp
+                 [from] => ClickUp Team <alerts@help.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 23:13:33 +0000
+                 [message_id] => <01010186198e7cbd-cc7f9060-6297-4500-83bd-c131e0286cce-000000@us-west-2.amazonses.com>
+                 [size] => 20439
+                 [uid] => 11994
+                 [msgno] => 6913
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675466016
+             )
+     
+         [14] => stdClass Object
+             (
+                 [subject] => [MayCo-de/email-client] test (PR #3)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:40:07 -0800
+                 [message_id] => <MayCo-de/email-client/pull/3@github.com>
+                 [size] => 10500
+                 [uid] => 11995
+                 [msgno] => 6914
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675467608
+             )
+     
+         [15] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/email-client] test (PR #3)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:40:15 -0800
+                 [message_id] => <MayCo-de/email-client/pull/3/issue_event/8437180568@github.com>
+                 [references] => <MayCo-de/email-client/pull/3@github.com>
+                 [in_reply_to] => <MayCo-de/email-client/pull/3@github.com>
+                 [size] => 9322
+                 [uid] => 11996
+                 [msgno] => 6915
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675467616
+             )
+     
+         [16] => stdClass Object
+             (
+                 [subject] => Test Aufgabe
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 23:57:34 +0000
+                 [message_id] => <0101018619b6c90a-08e77642-b6f7-432c-8558-7e77e215c7c1-000000@us-west-2.amazonses.com>
+                 [size] => 19802
+                 [uid] => 11997
+                 [msgno] => 6916
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675468657
+             )
+     
+         [17] => stdClass Object
+             (
+                 [subject] => task 1
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 23:58:21 +0000
+                 [message_id] => <0101018619b77e1e-50de59ff-6db2-47ce-9f10-03c792d9e8c6-000000@us-west-2.amazonses.com>
+                 [size] => 20362
+                 [uid] => 11998
+                 [msgno] => 6917
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675468703
+             )
+     
+         [18] => stdClass Object
+             (
+                 [subject] => Emails listen
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:34 +0000
+                 [message_id] => <0101018619ce971f-56b06ec0-2afe-47b2-961e-17191504e5c0-000000@us-west-2.amazonses.com>
+                 [size] => 19756
+                 [uid] => 11999
+                 [msgno] => 6918
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470217
+             )
+     
+         [19] => stdClass Object
+             (
+                 [subject] => Emails
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:35 +0000
+                 [message_id] => <0101018619ce9955-6c7b8a29-64b1-430a-9877-37299ed8ef77-000000@us-west-2.amazonses.com>
+                 [size] => 19765
+                 [uid] => 12000
+                 [msgno] => 6919
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470218
+             )
+     
+         [20] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Entw=C3=BCrfe_speichern?=
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:36 +0000
+                 [message_id] => <0101018619ce9d69-fedc67ea-beb5-4e26-b9bd-df8f5c2f7c13-000000@us-west-2.amazonses.com>
+                 [size] => 19785
+                 [uid] => 12001
+                 [msgno] => 6920
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470219
+             )
+     
+         [21] => stdClass Object
+             (
+                 [subject] => In Emails suchen
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:40 +0000
+                 [message_id] => <0101018619cead60-677de606-603a-421a-9e64-2022ce3d1bf2-000000@us-west-2.amazonses.com>
+                 [size] => 19762
+                 [uid] => 12002
+                 [msgno] => 6921
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470223
+             )
+     
+     )
+     
+[05-02 00:05][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\email.php(18)
+[05-02 00:05][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\emailAccess.php(8)
+
+
+     Array
+     (
+         [0] => stdClass Object
+             (
+                 [subject] => [MayCo-de/website-theme] setup theme toogle (PR #1)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 11:48:15 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/1@github.com>
+                 [size] => 11362
+                 [uid] => 11966
+                 [msgno] => 6902
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675280896
+             )
+     
+         [1] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/website-theme] setup theme toogle (PR #1)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 11:49:48 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/1/issue_event/8414070935@github.com>
+                 [references] => <MayCo-de/website-theme/pull/1@github.com>
+                 [in_reply_to] => <MayCo-de/website-theme/pull/1@github.com>
+                 [size] => 9351
+                 [uid] => 11967
+                 [msgno] => 6903
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675280989
+             )
+     
+         [2] => stdClass Object
+             (
+                 [subject] => [MayCo-de/website-theme] Add github actions yml (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 13:24:10 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/2@github.com>
+                 [size] => 10368
+                 [uid] => 11969
+                 [msgno] => 6904
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675286651
+             )
+     
+         [3] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/website-theme] Add github actions yml (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/website-theme <website-theme@noreply.github.com>
+                 [date] => Wed, 01 Feb 2023 13:24:14 -0800
+                 [message_id] => <MayCo-de/website-theme/pull/2/issue_event/8414775910@github.com>
+                 [references] => <MayCo-de/website-theme/pull/2@github.com>
+                 [in_reply_to] => <MayCo-de/website-theme/pull/2@github.com>
+                 [size] => 9340
+                 [uid] => 11970
+                 [msgno] => 6905
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675286656
+             )
+     
+         [4] => stdClass Object
+             (
+                 [subject] => Ihr Einmalcode
+                 [from] => Microsoft-Konto-Team <account-security-noreply@accountprotection.microsoft.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 03 Feb 2023 12:34:13 -0800
+                 [message_id] => <GCXQXFB73JU4.X30E4YVLOXSS1@BL02EPF0000195E>
+                 [size] => 12223
+                 [uid] => 11987
+                 [msgno] => 6906
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675456458
+             )
+     
+         [5] => stdClass Object
+             (
+                 [subject] => [Important Action Required] Reset your ClickUp password
+                 [from] => ClickUp Team <alerts@help.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 20:35:20 +0000
+                 [message_id] => <0101018618fda06b-884116c1-b8b9-41a2-b3cb-b9204a366089-000000@us-west-2.amazonses.com>
+                 [size] => 14995
+                 [uid] => 11988
+                 [msgno] => 6907
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675456522
+             )
+     
+         [6] => stdClass Object
+             (
+                 [subject] => [GitHub] Subscribed to MayCo-de/email-client notifications
+                 [from] => GitHub <noreply@github.com>
+                 [to] => Marius006@gmx.de
+                 [date] => Fri, 03 Feb 2023 14:31:52 -0800
+                 [message_id] => <63dd8b58a5274_1383c5bc7115c@github-lowworker-5825cd4.ac4-iad.github.net.mail>
+                 [size] => 6657
+                 [uid] => 11989
+                 [msgno] => 6908
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675463513
+             )
+     
+         [7] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?[MayCo-de/email-client]_Fenster_=C3=B6ffnen_und_HTML?= =?UTF-8?Q?_Datei_anzeigen_=28PR_#1=29?=
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 14:40:03 -0800
+                 [message_id] => <MayCo-de/email-client/pull/1@github.com>
+                 [size] => 11536
+                 [uid] => 11990
+                 [msgno] => 6909
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675464004
+             )
+     
+         [8] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Re:_[MayCo-de/email-client]_Fenster_=C3=B6ffnen_und_HTML?= =?UTF-8?Q?_Datei_anzeigen_=28PR_#1=29?=
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 14:41:35 -0800
+                 [message_id] => <MayCo-de/email-client/pull/1/issue_event/8436917829@github.com>
+                 [references] => <MayCo-de/email-client/pull/1@github.com>
+                 [in_reply_to] => <MayCo-de/email-client/pull/1@github.com>
+                 [size] => 9403
+                 [uid] => 11991
+                 [msgno] => 6910
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675464096
+             )
+     
+         [9] => stdClass Object
+             (
+                 [subject] => [MayCo-de/email-client] Bootstrap 5 Icons eingebunden und PHP Code entfernt (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:01:38 -0800
+                 [message_id] => <MayCo-de/email-client/pull/2@github.com>
+                 [size] => 10841
+                 [uid] => 11992
+                 [msgno] => 6911
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675465300
+             )
+     
+         [10] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/email-client] Bootstrap 5 Icons eingebunden und PHP Code entfernt (PR #2)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:02:04 -0800
+                 [message_id] => <MayCo-de/email-client/pull/2/issue_event/8437009095@github.com>
+                 [references] => <MayCo-de/email-client/pull/2@github.com>
+                 [in_reply_to] => <MayCo-de/email-client/pull/2@github.com>
+                 [size] => 9356
+                 [uid] => 11993
+                 [msgno] => 6912
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675465325
+             )
+     
+         [11] => stdClass Object
+             (
+                 [subject] => Colin Grahm Media invited you to ClickUp
+                 [from] => ClickUp Team <alerts@help.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 23:13:33 +0000
+                 [message_id] => <01010186198e7cbd-cc7f9060-6297-4500-83bd-c131e0286cce-000000@us-west-2.amazonses.com>
+                 [size] => 20439
+                 [uid] => 11994
+                 [msgno] => 6913
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675466016
+             )
+     
+         [12] => stdClass Object
+             (
+                 [subject] => [MayCo-de/email-client] test (PR #3)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:40:07 -0800
+                 [message_id] => <MayCo-de/email-client/pull/3@github.com>
+                 [size] => 10500
+                 [uid] => 11995
+                 [msgno] => 6914
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675467608
+             )
+     
+         [13] => stdClass Object
+             (
+                 [subject] => Re: [MayCo-de/email-client] test (PR #3)
+                 [from] => CGWebDev2003 <notifications@github.com>
+                 [to] => MayCo-de/email-client <email-client@noreply.github.com>
+                 [date] => Fri, 03 Feb 2023 15:40:15 -0800
+                 [message_id] => <MayCo-de/email-client/pull/3/issue_event/8437180568@github.com>
+                 [references] => <MayCo-de/email-client/pull/3@github.com>
+                 [in_reply_to] => <MayCo-de/email-client/pull/3@github.com>
+                 [size] => 9322
+                 [uid] => 11996
+                 [msgno] => 6915
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675467616
+             )
+     
+         [14] => stdClass Object
+             (
+                 [subject] => Test Aufgabe
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 23:57:34 +0000
+                 [message_id] => <0101018619b6c90a-08e77642-b6f7-432c-8558-7e77e215c7c1-000000@us-west-2.amazonses.com>
+                 [size] => 19802
+                 [uid] => 11997
+                 [msgno] => 6916
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675468657
+             )
+     
+         [15] => stdClass Object
+             (
+                 [subject] => task 1
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Fri, 3 Feb 2023 23:58:21 +0000
+                 [message_id] => <0101018619b77e1e-50de59ff-6db2-47ce-9f10-03c792d9e8c6-000000@us-west-2.amazonses.com>
+                 [size] => 20362
+                 [uid] => 11998
+                 [msgno] => 6917
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675468703
+             )
+     
+         [16] => stdClass Object
+             (
+                 [subject] => Emails listen
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:34 +0000
+                 [message_id] => <0101018619ce971f-56b06ec0-2afe-47b2-961e-17191504e5c0-000000@us-west-2.amazonses.com>
+                 [size] => 19756
+                 [uid] => 11999
+                 [msgno] => 6918
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470217
+             )
+     
+         [17] => stdClass Object
+             (
+                 [subject] => Emails
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:35 +0000
+                 [message_id] => <0101018619ce9955-6c7b8a29-64b1-430a-9877-37299ed8ef77-000000@us-west-2.amazonses.com>
+                 [size] => 19765
+                 [uid] => 12000
+                 [msgno] => 6919
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470218
+             )
+     
+         [18] => stdClass Object
+             (
+                 [subject] => =?UTF-8?Q?Entw=C3=BCrfe_speichern?=
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:36 +0000
+                 [message_id] => <0101018619ce9d69-fedc67ea-beb5-4e26-b9bd-df8f5c2f7c13-000000@us-west-2.amazonses.com>
+                 [size] => 19785
+                 [uid] => 12001
+                 [msgno] => 6920
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470219
+             )
+     
+         [19] => stdClass Object
+             (
+                 [subject] => In Emails suchen
+                 [from] => =?UTF-8?Q?Colin_Grahm_Media?= <notifications@tasks.clickup.com>
+                 [to] => marius006@gmx.de
+                 [date] => Sat, 4 Feb 2023 00:23:40 +0000
+                 [message_id] => <0101018619cead60-677de606-603a-421a-9e64-2022ce3d1bf2-000000@us-west-2.amazonses.com>
+                 [size] => 19762
+                 [uid] => 12002
+                 [msgno] => 6921
+                 [recent] => 0
+                 [flagged] => 0
+                 [answered] => 0
+                 [deleted] => 0
+                 [seen] => 1
+                 [draft] => 0
+                 [udate] => 1675470223
+             )
+     
+     )
+     
+[05-02 00:05][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\email.php(17)
+[05-02 00:05][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\emailAccess.php(8)
+
+
+     6913
+[05-02 00:13][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\email.php(39)
+[05-02 00:13][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\emailAccess.php(6)
+
+
+     6921
+[05-02 00:13][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\email.php(39)
+[05-02 00:13][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\emailAccess.php(6)
+
+[05-Feb-2023 00:13:51 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: imap_headerinfo(): Argument #2 ($message_num) must be greater than 0 in C:\xampp\htdocs\Splint\php\email\imap\imap.php:56
+Stack trace:
+#0 C:\xampp\htdocs\Splint\php\email\imap\imap.php(56): imap_headerinfo(Object(IMAP\Connection), 0)
+#1 C:\xampp\htdocs\Splint\php\email\email.php(40): imap::getEmailObject(Object(IMAP\Connection), 0)
+#2 C:\xampp\htdocs\Splint\php\email\emailAccess.php(6): email::get_by_UID(12002)
+#3 {main}
+  thrown in C:\xampp\htdocs\Splint\php\email\imap\imap.php on line 56
+
+     6921
+[05-02 00:14][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\email.php(39)
+[05-02 00:14][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\emailAccess.php(6)
+
+[05-Feb-2023 00:14:06 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: imap_headerinfo(): Argument #2 ($message_num) must be greater than 0 in C:\xampp\htdocs\Splint\php\email\imap\imap.php:56
+Stack trace:
+#0 C:\xampp\htdocs\Splint\php\email\imap\imap.php(56): imap_headerinfo(Object(IMAP\Connection), 0)
+#1 C:\xampp\htdocs\Splint\php\email\email.php(40): imap::getEmailObject(Object(IMAP\Connection), 0)
+#2 C:\xampp\htdocs\Splint\php\email\emailAccess.php(6): email::get_by_UID(12002)
+#3 {main}
+  thrown in C:\xampp\htdocs\Splint\php\email\imap\imap.php on line 56
+
+     6902
+[05-02 00:14][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\email.php(39)
+[05-02 00:14][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\emailAccess.php(6)
+
+
+     6902
+[05-02 00:15][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\email.php(39)
+[05-02 00:15][DEBUG][NOTICE] at C:\xampp\htdocs\Splint\php\email\emailAccess.php(6)
+
