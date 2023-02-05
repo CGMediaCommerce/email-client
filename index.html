@@ -21,26 +21,27 @@
 
     <div class="sidebar">
       <div class="logo-box">
-        <!-- <img class="logo-icon" src="./assets/icon.ico" alt="Application Icon"> -->
-        <div class="logo">
+        <img class="logo-icon" src="./assets/icon.ico" alt="Application Icon"> 
+        <!-- <div class="logo">
           <i class="bi bi-envelope-at-fill"></i>
-        </div>
+        </div> -->
       </div>
       <div class="navigation-box">
-        <button class="navigationButton"><i class="bi bi-envelope"></i></button>
-        <button class="navigationButton"><i class="bi bi-file-earmark-person"></i></button>
-        <button class="navigationButton"><i class="bi bi-chat-left-dots"></i></button>
-        <button class="navigationButton"><i class="bi bi-calendar-week"></i></button>
+        <button class="navigationButton" onclick="changeView('emailView', 'grid')"><i class="bi bi-envelope"></i></button>
+        <button class="navigationButton" onclick="changeView('contactView', 'grid')"><i class="bi bi-file-earmark-person"></i></button>
+        <button class="navigationButton" onclick="changeView('chatView', 'grid')"><i class="bi bi-chat-left-dots"></i></button>
+        <button class="navigationButton" onclick="changeView('calendarView', 'grid')"><i class="bi bi-calendar-week"></i></button>
       </div>
       <div class="controll-box">
-        <button class="navigationButton"><i class="bi bi-gear"></i></button>
+        <button class="navigationButton" onclick="changeView('settingsView', 'grid')"><i class="bi bi-gear"></i></button>
       </div>
     </div>
 
     <div class="viewBox">
+
       <div class="view emailView" id="emailView">
         <div class="mailSidebarWidget">
-			<div id="demo" data-theme="dark"></div>
+
         </div>
         <div class="mailBoxWidget">
           <div class="widgetHeader">
@@ -109,10 +110,32 @@
 
         </div>
       </div>
+
+      <div class="view contactView" id="contactView">
+        <h1>Kontakte</h1>
+      </div>
+
+      <div class="view chatView" id="chatView">
+        <h1>Chat</h1>
+      </div>
+
+      <div class="view calendarView" id="calendarView">
+        <h1>Kalender</h1>
+      </div>
+
+      <div class="view settingsView" id="settingsView">
+        <h1>Einstellungen</h1>
+      </div>
     </div>
 
     <div class="footer"></div>
 
+
+    <!-- INCLUDE Theme controller JS -->
+    <script src="./components/themeController.js"></script>
+
+    <!-- INCLUDE View controller JS -->
+    <script src="components/views/viewController.js"></script>
 
     <!-- Splint -->
     <script src="http://localhost:8888/email-client-fork/resources/js/loader.js"></script>

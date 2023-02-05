@@ -13,3 +13,32 @@
     --button-text: #fff;
 }
 
+[data-theme = "light"] {
+    --primary-light-2: #71C4FF;
+    --primary-light: #31A9FF;
+    --primary: #0496FF;
+    --primary-dark: #0087E9;
+    --primary-dark-2: #0077CD;
+
+    --bg: #fff;
+    --bg-dark: #f6f6f6;
+
+    --primary-text: #333;
+    --secondary-text: #a8a8a8;
+    --button-text: #fff;
+}
+
+[data-theme = "dark"] {
+    --primary-light-2: #71C4FF;
+    --primary-light: #31A9FF;
+    --primary: #0496FF;
+    --primary-dark: #0087E9;
+    --primary-dark-2: #0077CD;
+
+    --bg: #333;
+    --bg-dark: #1b1b1b;
+
+    --primary-text: #fff;
+    --secondary-text: #a8a8a8;
+    --button-text: #efefef;
+}
