@@ -1,6 +1,13 @@
 /*  ###################### */
 /*  Utilitys               */
 /*  ###################### */
+
+/**
+ *
+ * Primary Button
+ * @name Primary Button
+ *
+ */
 .primaryButton {
     background-color: var(--primary);
     color: var(--button-text);

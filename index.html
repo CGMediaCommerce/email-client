@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
 
     <!-- INCLUDE Bootstrap5 Icons -->
     <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
@@ -11,9 +11,14 @@
     <!-- INCLUDE Main CSS file -->
     <link rel="stylesheet" href="main.css">
 
+    <!-- Splint -->
+    <link rel="stylesheet" href="resources/css/ExampleTable.min.css">
+
     <title>Email Client</title>
   </head>
   <body>
+    <script src="../Splint/js/Splint.js" onload="Splint.start()"></script>
+
     <div class="sidebar">
       <div class="logo-box">
         <!-- <img class="logo-icon" src="./assets/icon.ico" alt="Application Icon"> -->
@@ -35,11 +40,14 @@
     <div class="viewBox">
       <div class="view emailView" id="emailView">
         <div class="mailSidebarWidget">
-
+			<div id="demo" data-theme="dark"></div>
         </div>
         <div class="mailBoxWidget">
           <div class="widgetHeader">
-            <input type="text" class="mailSearchBar" id="mailSearchBar" name="searchBar" placeholder="Suche..">
+            <div class="styledInput">
+              <i class="bi bi-search"></i>
+              <input type="text" value placeholder="Suchen...">
+            </div>
             <button class="funnelButton">
               <i class="bi bi-funnel"></i>
               Filter
@@ -49,6 +57,9 @@
             <h3 class="listHeadline">Posteingang</h3>            
           </div>
           <div class="emailList">
+
+
+            
             <div class="mailItem unread">
               <div class="itemSide">
                 <img class="contactPicture" src="./assets/noPicture.png" alt="Name Kontakt">
@@ -66,148 +77,23 @@
                 <p class="bodyText">
                   Lorem ipsum dolor sit amet, consur ipng elitr...
                 </p>
+                
               </div>
-              <div></div>
-              <div></div>
             </div>
 
-            <div class="mailItem unread">
-              <div class="itemSide">
-                <img class="contactPicture" src="./assets/noPicture.png" alt="Name Kontakt">
-              </div>
-              <div class="itemHeader">
-                <h5 class="subject">Betreff der Email</h5><br>
-                <p class="senderName">Mustermann GmbH</p>
-              </div>
-              <div class="itemSettings">
-                <button class="menuButton">
-                  <i class="bi bi-three-dots-vertical"></i>
-                </button>
-              </div>
-              <div class="itemBody">
-                <p class="bodyText">
-                  Lorem ipsum dolor sit amet, consur ipng elitr...
-                </p>
-              </div>
-              <div></div>
-              <div></div>
-            </div>
+           
 
-            <div class="mailItem unread">
-              <div class="itemSide">
-                <img class="contactPicture" src="./assets/noPicture.png" alt="Name Kontakt">
-              </div>
-              <div class="itemHeader">
-                <h5 class="subject">Betreff der Email</h5><br>
-                <p class="senderName">Mustermann GmbH</p>
-              </div>
-              <div class="itemSettings">
-                <button class="menuButton">
-                  <i class="bi bi-three-dots-vertical"></i>
-                </button>
-              </div>
-              <div class="itemBody">
-                <p class="bodyText">
-                  Lorem ipsum dolor sit amet, consur ipng elitr...
-                </p>
-              </div>
-              <div></div>
-              <div></div>
-            </div>
 
-            <div class="mailItem unread">
-              <div class="itemSide">
-                <img class="contactPicture" src="./assets/noPicture.png" alt="Name Kontakt">
-              </div>
-              <div class="itemHeader">
-                <h5 class="subject">Betreff der Email</h5><br>
-                <p class="senderName">Mustermann GmbH</p>
-              </div>
-              <div class="itemSettings">
-                <button class="menuButton">
-                  <i class="bi bi-three-dots-vertical"></i>
-                </button>
-              </div>
-              <div class="itemBody">
-                <p class="bodyText">
-                  Lorem ipsum dolor sit amet, consur ipng elitr...
-                </p>
-              </div>
-              <div></div>
-              <div></div>
-            </div>
-
-            <div class="mailItem">
-              <div class="itemSide">
-                <img class="contactPicture" src="./assets/noPicture.png" alt="Name Kontakt">
-              </div>
-              <div class="itemHeader">
-                <h5 class="subject">Betreff der Email</h5><br>
-                <p class="senderName">Mustermann GmbH</p>
-              </div>
-              <div class="itemSettings">
-                <button class="menuButton">
-                  <i class="bi bi-three-dots-vertical"></i>
-                </button>
-              </div>
-              <div class="itemBody">
-                <p class="bodyText">
-                  Lorem ipsum dolor sit amet, consur ipng elitr...
-                </p>
-              </div>
-              <div></div>
-              <div></div>
-            </div>
-
-            <div class="mailItem">
-              <div class="itemSide">
-                <img class="contactPicture" src="./assets/noPicture.png" alt="Name Kontakt">
-              </div>
-              <div class="itemHeader">
-                <h5 class="subject">Betreff der Email</h5><br>
-                <p class="senderName">Mustermann GmbH</p>
-              </div>
-              <div class="itemSettings">
-                <button class="menuButton">
-                  <i class="bi bi-three-dots-vertical"></i>
-                </button>
-              </div>
-              <div class="itemBody">
-                <p class="bodyText">
-                  Lorem ipsum dolor sit amet, consur ipng elitr...
-                </p>
-              </div>
-              <div></div>
-              <div></div>
-            </div>
-
-            <div class="mailItem">
-              <div class="itemSide">
-                <img class="contactPicture" src="./assets/noPicture.png" alt="Name Kontakt">
-              </div>
-              <div class="itemHeader">
-                <h5 class="subject">Betreff der Email</h5><br>
-                <p class="senderName">Mustermann GmbH</p>
-              </div>
-              <div class="itemSettings">
-                <button class="menuButton">
-                  <i class="bi bi-three-dots-vertical"></i>
-                </button>
-              </div>
-              <div class="itemBody">
-                <p class="bodyText">
-                  Lorem ipsum dolor sit amet, consur ipng elitr...
-                </p>
-              </div>
-              <div></div>
-              <div></div>
-            </div>
             
           </div>
           <div class="listControllBox">
-            <button class="secondaryButton prevButton btn-s">
+            <button class="secondaryButton prevButton btn-s" id="testMail">
               <i class="bi bi-caret-left-fill"></i>
             </button>
+            <script src="mail.js"></script>
+
+
+
             <input type="number" class="mailQuantity" id="mailQuantity" name="mailQuantity" value="50">
             <button class="secondaryButton nextButton btn-s">
               <i class="bi bi-caret-right-fill"></i>
@@ -226,5 +112,10 @@
     </div>
 
     <div class="footer"></div>
+
+
+    <!-- Splint -->
+    <script src="http://localhost:8888/email-client-fork/resources/js/loader.js"></script>
+    <script src="http://localhost:8888/email-client-fork/resources/js/Example.js"></script>
   </body>
 </html>
